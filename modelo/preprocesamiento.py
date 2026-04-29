@@ -2,12 +2,12 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-def cargar_y_preprocesar(filepath):
-    # Cargar CSV
-    df = pd.read_csv(filepath)
+def cargar_y_preprocesar(filepath, max_filas=5000):
+    # Cargar CSV con límite de filas
+    df = pd.read_csv(filepath, nrows=max_filas)
     df.columns = df.columns.str.strip().str.replace('"', '')
 
-    # Eliminar columnas no útiles para el modelo
+    # Eliminar columnas no útiles
     df = df.drop(columns=['No.', 'Info'], errors='ignore')
 
     # Convertir Time a numérico
