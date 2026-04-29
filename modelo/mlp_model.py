@@ -8,38 +8,50 @@ from sklearn.metrics import (confusion_matrix, classification_report,
 from sklearn.preprocessing import label_binarize
 
 def detectar_anomalias(X):
-    # Clustering para generar etiquetas
-    kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
-    etiquetas = kmeans.fit_predict(X)
+    # Usar muestra si hay muchos datos
+    max_muestras = 3000
+    if len(X) > max_muestras:
+        indices = np.random.choice(len(X), max_muestras, replace=False)
+        X_muestra = X[indices]
+    else:
+        X_muestra = X
+        indices = np.arange(len(X))
 
-    # Modelo MLP
+    # Clustering
+    kmeans = KMeans(n_clusters=3, random_state=42, n_init=5, max_iter=100)
+    etiquetas_muestra = kmeans.fit_predict(X_muestra)
+
+    # Predecir etiquetas para todos
+    etiquetas = kmeans.predict(X)
+
+    # MLP optimizado
     mlp = MLPClassifier(
-        hidden_layer_sizes=(128, 64, 32),
+        hidden_layer_sizes=(64, 32),
         activation='relu',
-        max_iter=1000,
+        max_iter=200,
         random_state=42
     )
-    mlp.fit(X, etiquetas)
+    mlp.fit(X_muestra, etiquetas_muestra)
     pred_mlp = mlp.predict(X)
     prob_mlp = mlp.predict_proba(X)
 
-    # Modelo Random Forest
+    # Random Forest optimizado
     rf = RandomForestClassifier(
-        n_estimators=200,
-        max_depth=10,
+        n_estimators=50,
+        max_depth=6,
         random_state=42,
         n_jobs=-1
     )
-    rf.fit(X, etiquetas)
+    rf.fit(X_muestra, etiquetas_muestra)
     pred_rf = rf.predict(X)
     prob_rf = rf.predict_proba(X)
 
-    # PCA para visualización de clusters
+    # PCA solo sobre muestra
     pca = PCA(n_components=2)
-    X_pca = pca.fit_transform(X)
+    X_pca = pca.fit_transform(X_muestra)
 
     return {
-        'etiquetas': etiquetas,
+        'etiquetas': etiquetas_muestra,
         'pred_mlp': pred_mlp,
         'prob_mlp': prob_mlp,
         'pred_rf': pred_rf,
@@ -55,19 +67,24 @@ def mapear_etiqueta(pred):
     return mapa.get(int(pred), 'Desconocido')
 
 def obtener_metricas(etiquetas, pred_mlp, pred_rf, prob_mlp, prob_rf):
+    # Alinear tamaños
+    n = min(len(etiquetas), len(pred_mlp), len(pred_rf))
+    etiquetas = etiquetas[:n]
+    pred_mlp = pred_mlp[:n]
+    pred_rf = pred_rf[:n]
+    prob_mlp = prob_mlp[:n]
+    prob_rf = prob_rf[:n]
+
     clases = ['Normal', 'Sospechoso', 'Posible Ataque']
 
-    # Reportes
     reporte_mlp = classification_report(etiquetas, pred_mlp,
                                         target_names=clases, output_dict=True)
     reporte_rf = classification_report(etiquetas, pred_rf,
                                        target_names=clases, output_dict=True)
 
-    # Matrices de confusión
     cm_mlp = confusion_matrix(etiquetas, pred_mlp)
     cm_rf = confusion_matrix(etiquetas, pred_rf)
 
-    # ROC (binarizado)
     y_bin = label_binarize(etiquetas, classes=[0, 1, 2])
 
     roc_mlp = {}
