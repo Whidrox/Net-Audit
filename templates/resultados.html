@@ -27,7 +27,6 @@
         .metrica-card { background-color: #1c2128; border-radius: 10px; padding: 15px; border: 1px solid #30363d; }
         .metrica-valor { font-size: 1.8rem; font-weight: bold; }
         .modelo-titulo { font-size: 1rem; color: #58a6ff; font-weight: bold; margin-bottom: 10px; }
-        .mejor { color: #2ecc71; }
         .nav-tabs .nav-link { color: #c9d1d9; border-color: #30363d; }
         .nav-tabs .nav-link.active { background-color: #1f6feb; border-color: #1f6feb; color: white; }
     </style>
@@ -74,7 +73,6 @@
     <div class="card p-4 mb-4">
         <h4 class="mb-3">🤖 Comparativa de Modelos</h4>
         <div class="row g-3">
-            <!-- MLP -->
             <div class="col-md-6">
                 <div class="metrica-card">
                     <div class="modelo-titulo">🧠 MLP (Red Neuronal)</div>
@@ -98,7 +96,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Random Forest -->
             <div class="col-md-6">
                 <div class="metrica-card">
                     <div class="modelo-titulo">🌲 Random Forest</div>
@@ -150,22 +147,22 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane fade show active" id="tab-dist">
-                <img src="{{ url_for('static', filename='graficas/distribucion.png') }}" class="grafica-img">
+                <img src="{{ url_for('static', filename='graficas/distribucion_' + task_id + '.png') }}" class="grafica-img">
             </div>
             <div class="tab-pane fade" id="tab-proto">
-                <img src="{{ url_for('static', filename='graficas/protocolos.png') }}" class="grafica-img">
+                <img src="{{ url_for('static', filename='graficas/protocolos_' + task_id + '.png') }}" class="grafica-img">
             </div>
             <div class="tab-pane fade" id="tab-long">
-                <img src="{{ url_for('static', filename='graficas/longitud.png') }}" class="grafica-img">
+                <img src="{{ url_for('static', filename='graficas/longitud_' + task_id + '.png') }}" class="grafica-img">
             </div>
             <div class="tab-pane fade" id="tab-pca">
-                <img src="{{ url_for('static', filename='graficas/clusters_pca.png') }}" class="grafica-img">
+                <img src="{{ url_for('static', filename='graficas/clusters_pca_' + task_id + '.png') }}" class="grafica-img">
             </div>
             <div class="tab-pane fade" id="tab-cm">
-                <img src="{{ url_for('static', filename='graficas/confusion.png') }}" class="grafica-img">
+                <img src="{{ url_for('static', filename='graficas/confusion_' + task_id + '.png') }}" class="grafica-img">
             </div>
             <div class="tab-pane fade" id="tab-roc">
-                <img src="{{ url_for('static', filename='graficas/roc.png') }}" class="grafica-img">
+                <img src="{{ url_for('static', filename='graficas/roc_' + task_id + '.png') }}" class="grafica-img">
             </div>
         </div>
     </div>
@@ -181,7 +178,7 @@
     <!-- Botones -->
     <div class="d-flex gap-3 justify-content-center">
         <a href="/" class="btn btn-outline-secondary btn-lg">⬅️ Nueva Captura</a>
-        <a href="/descargar_reporte" class="btn btn-success btn-lg">📄 Descargar Reporte PDF</a>
+        <a href="/descargar_reporte/{{ task_id }}" class="btn btn-success btn-lg">📄 Descargar Reporte PDF</a>
     </div>
 
 </div>
