@@ -15,9 +15,9 @@ def generar_reporte(df_resultados, graficas_paths, output_path):
 
     # Resumen
     total = len(df_resultados)
-    normales = len(df_resultados[df_resultados['Clasificacion'] == 'Normal'])
-    sospechosos = len(df_resultados[df_resultados['Clasificacion'] == 'Sospechoso'])
-    ataques = len(df_resultados[df_resultados['Clasificacion'] == 'Posible Ataque'])
+    normales = len(df_resultados[df_resultados['Clasificacion_MLP'] == 'Normal'])
+    sospechosos = len(df_resultados[df_resultados['Clasificacion_MLP'] == 'Sospechoso'])
+    ataques = len(df_resultados[df_resultados['Clasificacion_MLP'] == 'Posible Ataque'])
 
     elementos.append(Paragraph("Resumen del Análisis", styles['Heading2']))
     elementos.append(Paragraph(f"Total de paquetes analizados: {total}", styles['Normal']))
