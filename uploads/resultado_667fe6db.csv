@@ -1,0 +1,1202 @@
+No.,Time,Source,Destination,Protocol,Length,Info,Clasificacion_MLP,Clasificacion_RF,Confianza_MLP,Confianza_RF
+1,0.0,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+2,0.0,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,100.0%,100.0%
+3,0.0,10.157.71.174,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+4,0.0,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,100.0%,100.0%
+5,0.000712,10.157.65.211,224.0.0.251,MDNS,77,"Standard query 0x0000 A soporte_uaa.local, ""QM"" question",Normal,Normal,100.0%,100.0%
+6,0.000712,fe80::6a4:95b3:539c:2a84,ff02::fb,MDNS,97,"Standard query 0x0000 A soporte_uaa.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+7,0.000712,fe80::6a4:95b3:539c:2a84,ff02::fb,MDNS,97,"Standard query 0x0000 AAAA soporte_uaa.local, ""QU"" question",Sospechoso,Sospechoso,99.9%,100.0%
+8,0.001335,10.157.65.211,224.0.0.251,MDNS,77,"Standard query 0x0000 AAAA soporte_uaa.local, ""QU"" question",Normal,Normal,100.0%,100.0%
+9,0.001335,fe80::4343:107b:99c5:ffad,ff02::fb,MDNS,102,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+10,0.002032,10.157.65.191,224.0.0.251,MDNS,82,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question",Normal,Normal,100.0%,100.0%
+11,0.102436,10.157.69.197,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+12,0.102436,::,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+13,0.102436,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+14,0.20393,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+15,0.20393,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,100.0%,100.0%
+16,0.307247,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+17,0.307247,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,100.0%,100.0%
+18,0.307247,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x064c ANY CHIA74417,Sospechoso,Sospechoso,99.9%,100.0%
+19,0.307247,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x064c ANY CHIA74417,Normal,Normal,100.0%,100.0%
+20,0.307247,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+21,0.308022,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+22,0.308022,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,100.0%,100.0%
+23,0.406429,10.157.69.106,10.157.65.239,TCP,164,"52502  >  8009 [PSH, ACK] Seq=1 Ack=1 Win=1024 Len=110",Normal,Normal,100.0%,100.0%
+24,0.417435,8a:00:f7:59:a8:91,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.65.171,Posible Ataque,Posible Ataque,99.7%,100.0%
+25,0.417435,8a:00:f7:59:a8:91,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.65.171,Posible Ataque,Posible Ataque,99.7%,100.0%
+26,0.417435,fe80::8cec:c5ff:fe77:fd13,ff02::16,ICMPv6,170,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+27,0.417435,8e:ec:c5:77:fd:13,Broadcast,ARP,56,Gratuitous ARP for 10.157.65.107 (Reply),Posible Ataque,Posible Ataque,99.7%,100.0%
+28,0.417435,::,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+29,0.418538,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,91,Standard query 0x25e9 AAAA soporte_uaa,Sospechoso,Sospechoso,99.9%,100.0%
+30,0.418538,fe80::6a4:95b3:539c:2a84,ff02::fb,MDNS,97,"Standard query 0x0000 A soporte_uaa.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+31,0.418538,10.157.65.211,10.157.71.255,NBNS,92,Name query NB SOPORTE_UAA<00>,Normal,Normal,100.0%,100.0%
+32,0.449336,10.157.65.239,10.157.69.106,TCP,56,8009  >  52502 [ACK] Seq=1 Ack=111 Win=1161 Len=0,Normal,Normal,100.0%,100.0%
+33,0.462986,10.157.65.239,10.157.69.106,TCP,169,"8009  >  52502 [PSH, ACK] Seq=1 Ack=111 Win=1161 Len=115",Normal,Normal,100.0%,100.0%
+34,0.507038,10.157.69.106,10.157.65.239,TCP,54,52502  >  8009 [ACK] Seq=111 Ack=116 Win=1024 Len=0,Normal,Normal,100.0%,100.0%
+35,0.614178,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+36,0.614178,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,100.0%,100.0%
+37,0.614178,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+38,0.614178,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x064c ANY CHIA74417,Normal,Normal,100.0%,100.0%
+39,0.614178,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x064c ANY CHIA74417,Sospechoso,Sospechoso,99.9%,100.0%
+40,0.715997,HuiZhouGaosh_7a:fe:71,Broadcast,ARP,56,Who has 10.157.70.160? Tell 10.157.65.239,Posible Ataque,Posible Ataque,99.7%,100.0%
+41,0.715997,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+42,0.81874,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+43,0.81874,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.10? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+44,0.928193,fe80::8800:f7ff:fe59:a891,ff02::2,ICMPv6,70,Router Solicitation from 8a:00:f7:59:a8:91,Sospechoso,Sospechoso,99.8%,100.0%
+45,0.928193,fe80::8800:f7ff:fe59:a891,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+46,0.928193,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+47,0.928757,fe80::6a4:95b3:539c:2a84,ff02::fb,MDNS,97,"Standard query 0x0000 A soporte_uaa.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+48,0.928757,fe80::6a4:95b3:539c:2a84,ff02::fb,MDNS,97,"Standard query 0x0000 AAAA soporte_uaa.local, ""QU"" question",Sospechoso,Sospechoso,99.9%,100.0%
+49,0.928757,10.157.65.211,224.0.0.251,MDNS,77,"Standard query 0x0000 A soporte_uaa.local, ""QM"" question",Normal,Normal,100.0%,100.0%
+50,0.929258,10.157.65.211,224.0.0.252,LLMNR,71,Standard query 0xca08 A soporte_uaa,Normal,Normal,100.0%,100.0%
+51,0.929258,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,91,Standard query 0xca08 A soporte_uaa,Sospechoso,Sospechoso,99.9%,100.0%
+52,0.929258,10.157.65.211,224.0.0.252,LLMNR,71,Standard query 0x25e9 AAAA soporte_uaa,Normal,Normal,100.0%,100.0%
+53,0.929836,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,91,Standard query 0x25e9 AAAA soporte_uaa,Sospechoso,Sospechoso,99.9%,100.0%
+54,0.929836,10.157.65.211,224.0.0.251,MDNS,77,"Standard query 0x0000 AAAA soporte_uaa.local, ""QU"" question",Normal,Normal,100.0%,100.0%
+55,0.930738,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,100.0%,100.0%
+56,1.023239,LiteonTechno_75:1d:37,Broadcast,ARP,56,Who has 10.157.65.239? Tell 10.157.65.191,Posible Ataque,Posible Ataque,99.7%,100.0%
+57,1.023239,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+58,1.126161,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,100.0%,100.0%
+59,1.126161,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+60,1.126161,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+61,1.126161,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x32f7 ANY CHIA74417,Sospechoso,Sospechoso,99.9%,100.0%
+62,1.126798,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x32f7 ANY CHIA74417,Normal,Normal,100.0%,100.0%
+63,1.126798,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,100.0%,100.0%
+64,1.126798,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+65,1.127349,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,100.0%,100.0%
+66,1.127349,10.157.65.191,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+67,1.228703,10.157.64.73,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+68,1.331335,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+69,1.331335,10.157.67.100,224.0.0.251,MDNS,132,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question PTR _B143C57E._sub._googlecast._tcp.local, ""QM"" question PTR OneScreen-6786._googlecast._tcp.local",Normal,Normal,100.0%,100.0%
+70,1.331335,fe80::18a7:aff3:3487:b498,ff02::fb,MDNS,152,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question PTR _B143C57E._sub._googlecast._tcp.local, ""QM"" question PTR OneScreen-6786._googlecast._tcp.local",Sospechoso,Sospechoso,99.9%,100.0%
+71,1.331335,0.0.0.0,255.255.255.255,DHCP,342,DHCP Request  - Transaction ID 0xc7fce4d5,Normal,Normal,99.5%,100.0%
+72,1.331335,72:fc:67:ca:bc:f6,Broadcast,ARP,56,Who has 10.157.69.56? (ARP Probe),Posible Ataque,Posible Ataque,99.7%,100.0%
+73,1.4339,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+74,1.642344,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+75,1.642344,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.9%,100.0%
+76,1.642344,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+77,1.642344,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,100.0%,100.0%
+78,1.643012,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+79,1.643012,10.157.65.239,224.0.0.251,MDNS,193,"Standard query response 0x0000 SRV, cache flush 0 0 51040 es-D43D52499B68.local A, cache flush 10.157.65.239 NSEC, cache flush es-D43D52499B68.local NSEC, cache flush D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local",Normal,Normal,100.0%,100.0%
+80,1.643012,10.157.69.241,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,100.0%,100.0%
+81,1.740891,72:fc:67:ca:bc:f6,Broadcast,ARP,56,Who has 10.157.69.56? (ARP Probe),Posible Ataque,Posible Ataque,99.7%,100.0%
+82,1.740891,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+83,1.740891,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,100.0%,100.0%
+84,1.740891,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+85,1.843128,10.157.69.241,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+86,1.843128,10.157.65.239,255.255.255.255,UDP,103,48689  >  48689 Len=61,Normal,Normal,100.0%,100.0%
+87,1.843128,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.10? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.7%,100.0%
+88,1.945408,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+89,1.945408,10.157.65.239,224.0.0.251,MDNS,411,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR OneScreen-6786._airplay._tcp.local PTR _raop._tcp.local SRV, cache flush 0 0 51010 es-D43D52499B68.local NSEC, cache flush OneScreen-6786._airplay._tcp.local",Normal,Normal,99.9%,100.0%
+90,1.945408,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+91,1.945408,10.157.65.211,10.157.71.255,NBNS,92,Name query NB SOPORTE_UAA<00>,Normal,Normal,100.0%,100.0%
+92,1.946361,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+93,2.055396,72:fc:67:ca:bc:f6,Broadcast,ARP,56,Who has 10.157.69.56? (ARP Probe),Posible Ataque,Posible Ataque,99.8%,100.0%
+94,2.055396,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,110,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.9%,100.0%
+95,2.055396,10.157.65.211,224.0.0.22,IGMPv3,62,Membership Report / Leave group 224.0.0.251 / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+96,2.055396,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.9%,100.0%
+97,2.055396,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.9%,100.0%
+98,2.055396,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+99,2.056238,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+100,2.056238,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.9%,100.0%
+101,2.056238,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0xc324 ANY CHIA74417,Sospechoso,Sospechoso,99.9%,100.0%
+102,2.0567,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0xc324 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+103,2.0567,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.9%,100.0%
+104,2.0567,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+105,2.15019,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.203? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+106,2.15019,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+107,2.252591,10.157.66.236,239.255.255.250,SSDP,212,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+108,2.252591,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+109,2.252591,0.0.0.0,255.255.255.255,DHCP,342,DHCP Discover - Transaction ID 0x8d5b0da1,Normal,Normal,99.5%,100.0%
+110,2.355166,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+111,2.355166,72:fc:67:ca:bc:f6,Broadcast,ARP,56,ARP Announcement for 10.157.69.56,Posible Ataque,Posible Ataque,99.8%,100.0%
+112,2.458154,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+113,2.458154,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+114,2.458154,10.157.65.211,224.0.0.22,IGMPv3,62,Membership Report / Join group 224.0.0.251 for any sources / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+115,2.458154,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,130,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.9%,100.0%
+116,2.560143,169.254.174.210,239.255.255.250,UDP/XML,1124,61846  >  3702 Len=1082,Normal,Normal,100.0%,100.0%
+117,2.560143,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+118,2.662161,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+119,2.662161,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+120,2.662161,72:fc:67:ca:bc:f6,Broadcast,ARP,56,ARP Announcement for 10.157.69.56,Posible Ataque,Posible Ataque,99.8%,100.0%
+121,2.766046,10.157.65.239,224.0.0.251,MDNS,193,"Standard query response 0x0000 SRV, cache flush 0 0 51040 es-D43D52499B68.local A, cache flush 10.157.65.239 NSEC, cache flush es-D43D52499B68.local NSEC, cache flush D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local",Normal,Normal,99.9%,100.0%
+122,2.766046,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+123,2.766046,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+124,2.866832,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.10? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+125,2.866832,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+126,2.969716,fe80::15f1:a44:8b76:7a77,ff02::16,ICMPv6,150,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+127,2.969716,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+128,2.969716,72:fc:67:ca:bc:f6,Broadcast,ARP,56,ARP Announcement for 10.157.69.56,Posible Ataque,Posible Ataque,99.8%,100.0%
+129,2.969716,72:fc:67:ca:bc:f6,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.69.56,Posible Ataque,Posible Ataque,99.8%,100.0%
+130,3.07464,10.157.69.56,224.0.0.251,IGMPv2,56,Membership Report group 224.0.0.251,Normal,Normal,99.9%,100.0%
+131,3.07464,10.157.69.148,224.0.0.251,MDNS,100,"Standard query 0x0000 PTR _companion-link._tcp.local, ""QM"" question PTR _rdlink._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+132,3.075215,fe80::cbf:2dc1:c366:9d57,ff02::fb,MDNS,120,"Standard query 0x0000 PTR _companion-link._tcp.local, ""QM"" question PTR _rdlink._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+133,3.075215,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+134,3.075215,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+135,3.075813,fe80::2f5a:974a:4e57:5608,ff02::1:2,DHCPv6,120,Information-request XID: 0xf0efc1 CID: 000100012d63ea6f2c58b9d3aaa1 ,Sospechoso,Sospechoso,99.7%,100.0%
+136,3.075813,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.203? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+137,3.174295,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+138,3.174295,10.157.64.73,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+139,3.174295,10.157.66.236,239.255.255.250,SSDP,212,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+140,3.27713,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+141,3.27713,AzureWaveTec_ed:6d:26,Broadcast,ARP,56,Who has 10.157.68.33? Tell 10.157.71.164,Posible Ataque,Posible Ataque,99.8%,100.0%
+142,3.37935,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+143,3.37935,::,ff02::1:ffcc:5618,ICMPv6,86,Neighbor Solicitation for fe80::fc2a:e8ff:fecc:5618,Sospechoso,Sospechoso,99.8%,100.0%
+144,3.37935,::,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+145,3.37935,0.0.0.0,255.255.255.255,DHCP,348,DHCP Discover - Transaction ID 0x47ebcbbd,Normal,Normal,99.5%,100.0%
+146,3.379855,10.157.68.221,10.157.71.255,UDP,63,59122  >  32412 Len=21,Normal,Normal,100.0%,100.0%
+147,3.483696,AzureWaveTec_ed:6d:26,Broadcast,ARP,56,Who has 10.157.68.33? Tell 10.157.71.164,Posible Ataque,Posible Ataque,99.8%,100.0%
+148,3.483696,10.157.68.221,10.157.71.255,UDP,63,59124  >  32414 Len=21,Normal,Normal,100.0%,100.0%
+149,3.483696,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+150,3.484991,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+151,3.58339,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+152,3.58339,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+153,3.58339,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+154,3.646669,10.157.69.106,64.31.17.14,TCP,55,57402  >  443 [ACK] Seq=1 Ack=1 Win=1021 Len=1,Normal,Normal,100.0%,100.0%
+155,3.67538,fe80::6074:55ff:fe12:b795,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+156,3.67538,10.157.69.241,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+157,3.67538,10.157.69.241,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+158,3.789637,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+159,3.79595,64.31.17.14,10.157.69.106,TCP,66,443  >  57402 [ACK] Seq=1 Ack=2 Win=501 Len=0 SLE=1 SRE=2,Normal,Normal,100.0%,100.0%
+160,3.891427,::,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+161,3.891427,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.10? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+162,3.891427,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+163,3.994467,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+164,3.994467,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x09e3 ANY CHIA74417,Sospechoso,Sospechoso,99.9%,100.0%
+165,3.994467,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+166,3.994467,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x09e3 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+167,3.994467,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+168,3.994467,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+169,3.995101,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+170,3.995101,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+171,3.995101,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+172,3.996391,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+173,3.996391,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+174,4.096006,fe80::4ca2:3ff:fef2:1cef,ff02::2,ICMPv6,70,Router Solicitation from 4e:a2:03:f2:1c:ef,Sospechoso,Sospechoso,99.8%,100.0%
+175,4.096006,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+176,4.09684,fe80::fc2a:e8ff:fecc:5618,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+177,4.198258,AzureWaveTec_ed:6d:26,Broadcast,ARP,56,Who has 10.157.68.33? Tell 10.157.71.164,Posible Ataque,Posible Ataque,99.8%,100.0%
+178,4.198258,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+179,4.198258,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+180,4.198816,10.157.66.236,239.255.255.250,SSDP,212,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+181,4.301321,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+182,4.301321,fe80::18a7:aff3:3487:b498,ff02::fb,MDNS,152,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question PTR _B143C57E._sub._googlecast._tcp.local, ""QM"" question PTR OneScreen-6786._googlecast._tcp.local",Sospechoso,Sospechoso,99.9%,100.0%
+183,4.40402,0.0.0.0,255.255.255.255,DHCP,346,DHCP Discover - Transaction ID 0x39a89c8e,Normal,Normal,99.4%,100.0%
+184,4.40402,::,ff02::16,ICMPv6,150,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+185,4.40402,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+186,4.40402,10.157.66.216,224.0.0.251,MDNS,184,"Standard query 0x0004 PTR _googlecast._tcp.local, ""QM"" question PTR _%9E5E7C8F47989526C9BCD95D24084F6F0B27C5ED._sub._googlecast._tcp.local, ""QM"" question PTR _674A0243._sub._googlecast._tcp.local, ""QM"" question PTR _CFE7FEDA._sub._googlecast._tcp.local, ""QM"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+187,4.40402,fe80::fc9b:d3ff:fe17:e92c,ff02::fb,MDNS,204,"Standard query 0x0004 PTR _googlecast._tcp.local, ""QM"" question PTR _%9E5E7C8F47989526C9BCD95D24084F6F0B27C5ED._sub._googlecast._tcp.local, ""QM"" question PTR _674A0243._sub._googlecast._tcp.local, ""QM"" question PTR _CFE7FEDA._sub._googlecast._tcp.local, ""QM"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+188,4.404825,0.0.0.0,255.255.255.255,DHCP,358,DHCP Request  - Transaction ID 0x47ebcbbd,Normal,Normal,99.4%,100.0%
+189,4.404825,0.0.0.0,255.255.255.255,DHCP,356,DHCP Request  - Transaction ID 0x39a89c8e,Normal,Normal,99.4%,100.0%
+190,4.404825,::,ff02::16,ICMPv6,150,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+191,4.404825,fe:2a:e8:cc:56:18,Broadcast,ARP,42,Who has 10.157.64.1? Tell 10.157.70.35,Posible Ataque,Posible Ataque,99.8%,100.0%
+192,4.608055,fe80::fc2a:e8ff:fecc:5618,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+193,4.608055,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+194,4.608055,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+195,4.608721,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+196,4.71161,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+197,4.71161,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+198,4.71161,10.157.71.174,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+199,4.71161,10.157.71.174,224.0.0.251,MDNS,82,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+200,4.71161,fe80::42d:894:41fd:366,ff02::fb,MDNS,101,"Standard query 0x0000 PTR lb._dns-sd._udp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+201,4.71161,10.157.68.238,224.0.0.251,MDNS,81,"Standard query 0x0000 PTR lb._dns-sd._udp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+202,4.712656,::,ff02::16,ICMPv6,230,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+203,4.712656,0.0.0.0,255.255.255.255,DHCP,342,DHCP Discover - Transaction ID 0x6ffb549d,Normal,Normal,99.4%,100.0%
+204,4.813418,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+205,4.813418,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+206,4.915625,fe80::14fa:e359:4b33:18e4,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+207,4.915625,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.10? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+208,4.915625,10.157.69.64,224.0.0.251,IGMPv2,56,Membership Report group 224.0.0.251,Normal,Normal,99.9%,100.0%
+209,4.916207,3e:17:08:1c:27:a1,Broadcast,ARP,56,Who has 10.157.66.228? Tell 10.157.69.64,Posible Ataque,Posible Ataque,99.8%,100.0%
+210,4.916207,3e:17:08:1c:27:a1,Broadcast,ARP,56,Who has 10.157.65.213? Tell 10.157.69.64,Posible Ataque,Posible Ataque,99.8%,100.0%
+211,4.916207,10.157.69.64,224.0.0.251,MDNS,100,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QU"" question PTR _companion-link._tcp.local, ""QU"" question",Normal,Normal,99.9%,100.0%
+212,4.916892,fe80::14fa:e359:4b33:18e4,ff02::fb,MDNS,120,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QU"" question PTR _companion-link._tcp.local, ""QU"" question",Sospechoso,Sospechoso,99.9%,100.0%
+213,5.017736,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.180? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+214,5.017736,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+215,5.017736,10.157.71.174,224.0.0.251,MDNS,82,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+216,5.018287,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,102,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+217,5.018287,10.157.71.174,224.0.0.251,MDNS,96,"Standard query 0x0000 PTR _spotify-social-listening._tcp.local, ""QU"" question",Normal,Normal,99.9%,100.0%
+218,5.119382,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+219,5.223233,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+220,5.223233,10.157.64.73,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+221,5.223233,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+222,5.223233,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x189b ANY CHIA74417,Normal,Normal,99.9%,100.0%
+223,5.223233,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+224,5.223776,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+225,5.223776,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+226,5.223776,::,ff02::1:ff38:549c,ICMPv6,86,Neighbor Solicitation for fe80::837:9bff:fe38:549c,Sospechoso,Sospechoso,99.8%,100.0%
+227,5.326406,10.157.66.236,239.255.255.250,SSDP,212,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+228,5.326406,fe80::14fa:e359:4b33:18e4,ff02::fb,MDNS,120,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+229,5.326406,10.157.69.64,224.0.0.251,MDNS,100,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+230,5.326406,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+231,5.427992,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+232,5.427992,10.157.69.115,239.255.255.250,SSDP,212,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+233,5.427992,10.157.70.35,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+234,5.477978,10.157.69.106,10.157.65.239,TCP,164,"52502  >  8009 [PSH, ACK] Seq=111 Ack=116 Win=1024 Len=110",Normal,Normal,100.0%,100.0%
+235,5.497847,10.157.65.239,10.157.69.106,TCP,56,8009  >  52502 [ACK] Seq=116 Ack=221 Win=1161 Len=0,Normal,Normal,100.0%,100.0%
+236,5.519119,b6:25:46:52:3f:96,Broadcast,ARP,56,Gratuitous ARP for 10.40.2.140 (Reply),Posible Ataque,Posible Ataque,99.8%,100.0%
+237,5.519119,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+238,5.519119,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+239,5.519911,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+240,5.519911,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+241,5.519911,fe80::7889:a8ff:febe:b68c,ff02::2,ICMPv6,70,Router Solicitation from 7a:89:a8:be:b6:8c,Sospechoso,Sospechoso,99.8%,100.0%
+242,5.520207,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+243,5.632395,::,ff02::16,ICMPv6,230,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+244,5.632395,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x0000 PTR 191.65.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+245,5.632395,fe80::19f8:a45b:4132:6df,ff02::fb,MDNS,106,"Standard query 0x0000 PTR 191.65.157.10.in-addr.arpa, ""QM"" question",Sospechoso,Sospechoso,99.9%,100.0%
+246,5.633037,0.0.0.0,255.255.255.255,DHCP,342,DHCP Discover - Transaction ID 0x6ffb549d,Normal,Normal,99.4%,100.0%
+247,5.633037,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x189b ANY CHIA74417,Sospechoso,Sospechoso,99.8%,100.0%
+248,5.633037,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x189b ANY CHIA74417,Normal,Normal,99.9%,100.0%
+249,5.633037,b6:25:46:52:3f:96,Broadcast,ARP,56,Who has 10.40.1.1? Tell 10.40.2.140,Posible Ataque,Posible Ataque,99.8%,100.0%
+250,5.633833,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+251,5.734984,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+252,5.734984,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+253,5.738337,fe80::8b54:2b5f:892:8083,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+254,5.738337,10.157.68.79,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+255,5.738337,10.157.69.241,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+256,5.738852,fe80::6074:55ff:fe12:b795,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+257,5.738852,10.157.69.241,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+258,5.744042,10.157.65.239,10.157.69.106,TCP,169,"8009  >  52502 [PSH, ACK] Seq=116 Ack=221 Win=1161 Len=115",Normal,Normal,100.0%,100.0%
+259,5.793908,10.157.69.106,10.157.65.239,TCP,54,52502  >  8009 [ACK] Seq=221 Ack=231 Win=1023 Len=0,Normal,Normal,100.0%,100.0%
+260,5.826434,10.157.70.35,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,100.0%,100.0%
+261,5.826434,10.157.65.239,255.255.255.255,UDP,103,48689  >  48689 Len=61,Normal,Normal,100.0%,100.0%
+262,5.826434,fe80::8b54:2b5f:892:8083,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+263,5.826434,10.157.68.79,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+264,5.826434,fe80::8b54:2b5f:892:8083,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+265,5.826434,10.157.68.79,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+266,5.827264,10.157.68.79,224.0.0.252,LLMNR,69,Standard query 0x4be2 ANY CHIA68930,Normal,Normal,99.9%,100.0%
+267,5.827264,fe80::8b54:2b5f:892:8083,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+268,5.827264,10.157.68.79,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+269,5.828596,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+270,5.845722,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x3fea HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+271,5.845939,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xe9ec A chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+272,5.862451,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xe9ec A chrome.cloudflare-dns.com A 172.64.41.3 A 162.159.61.3,Normal,Normal,99.6%,100.0%
+273,5.862451,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0x3fea HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.6%,100.0%
+274,5.864396,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=9fe5c42b830581bb, PKN: 1, PING, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO",Normal,Normal,100.0%,100.0%
+275,5.864451,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=9fe5c42b830581bb, PKN: 2, CRYPTO, PING, CRYPTO, PING, PING, PING, PADDING, PING, PING, PING, PADDING, CRYPTO, PADDING, PING, PING",Normal,Normal,100.0%,100.0%
+276,5.864728,10.157.69.106,172.64.41.3,TCP,66,60199  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+277,5.874448,172.64.41.3,10.157.69.106,TCP,66,"443  >  60199 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+278,5.874682,10.157.69.106,172.64.41.3,TCP,54,60199  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+279,5.875695,10.157.69.106,172.64.41.3,TLSv1.2,1853,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+280,5.879433,172.64.41.3,10.157.69.106,TCP,56,"443  >  60199 [RST, ACK] Seq=1 Ack=1800 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+281,5.880453,10.157.69.106,172.64.41.3,TCP,66,55551  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+282,5.889224,172.64.41.3,10.157.69.106,TCP,66,"443  >  55551 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+283,5.889451,10.157.69.106,172.64.41.3,TCP,54,55551  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+284,5.890034,10.157.69.106,172.64.41.3,TLSv1.2,1821,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+285,5.892704,172.64.41.3,10.157.69.106,TCP,56,"443  >  55551 [RST, ACK] Seq=1 Ack=1768 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+286,6.042072,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+287,6.042072,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x0000 PTR 191.65.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+288,6.042072,fe80::19f8:a45b:4132:6df,ff02::fb,MDNS,106,"Standard query 0x0000 PTR 191.65.157.10.in-addr.arpa, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+289,6.042072,fe80::19f8:a45b:4132:6df,ff02::1:3,LLMNR,106,Standard query 0x225a PTR 191.65.157.10.in-addr.arpa,Sospechoso,Sospechoso,99.8%,100.0%
+290,6.042072,10.157.70.242,224.0.0.252,LLMNR,86,Standard query 0x225a PTR 191.65.157.10.in-addr.arpa,Normal,Normal,99.9%,100.0%
+291,6.042072,fe80::837:9bff:fe38:549c,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+292,6.043146,fe80::837:9bff:fe38:549c,ff02::16,ICMPv6,150,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+293,6.043146,fe80::837:9bff:fe38:549c,ff02::2,ICMPv6,70,Router Solicitation from 0a:37:9b:38:54:9c,Sospechoso,Sospechoso,99.8%,100.0%
+294,6.144684,10.157.67.235,10.157.71.255,UDP,82,57621  >  57621 Len=40,Normal,Normal,100.0%,100.0%
+295,6.144684,10.157.68.79,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+296,6.145608,fe80::8b54:2b5f:892:8083,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+297,6.145608,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x7813 ANY CHIA74417,Sospechoso,Sospechoso,99.8%,100.0%
+298,6.145608,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x7813 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+299,6.146083,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+300,6.146083,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+301,6.146083,10.157.64.73,10.157.71.255,UDP,82,57621  >  57621 Len=40,Normal,Normal,100.0%,100.0%
+302,6.167323,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=9fe5c42b830581bb, PKN: 4, CRYPTO, PING, PADDING, CRYPTO, CRYPTO, PING, PADDING, PING, CRYPTO, CRYPTO",Normal,Normal,100.0%,100.0%
+303,6.246559,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+304,6.246559,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+305,6.246559,fe80::bc0b:6bff:fec3:fce6,ff02::16,ICMPv6,150,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+306,6.247506,fe80::bc0b:6bff:fec3:fce6,ff02::2,ICMPv6,70,Router Solicitation from be:0b:6b:c3:fc:e6,Sospechoso,Sospechoso,99.8%,100.0%
+307,6.247506,fe80::8b54:2b5f:892:8083,ff02::1:3,LLMNR,89,Standard query 0x4be2 ANY CHIA68930,Sospechoso,Sospechoso,99.8%,100.0%
+308,6.247506,10.157.68.79,224.0.0.252,LLMNR,69,Standard query 0x4be2 ANY CHIA68930,Normal,Normal,99.9%,100.0%
+309,6.247506,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+310,6.35149,10.157.69.64,224.0.0.251,MDNS,100,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+311,6.35149,fe80::14fa:e359:4b33:18e4,ff02::fb,MDNS,120,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+312,6.35149,fe80::bc0b:6bff:fec3:fce6,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+313,6.352194,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+314,6.451549,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+315,6.451549,fe80::19f8:a45b:4132:6df,ff02::fb,MDNS,106,"Standard query 0x0000 PTR 191.65.157.10.in-addr.arpa, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+316,6.451549,fe80::19f8:a45b:4132:6df,ff02::1:3,LLMNR,106,Standard query 0x225a PTR 191.65.157.10.in-addr.arpa,Sospechoso,Sospechoso,99.8%,100.0%
+317,6.451549,10.157.70.242,224.0.0.252,LLMNR,86,Standard query 0x225a PTR 191.65.157.10.in-addr.arpa,Normal,Normal,99.9%,100.0%
+318,6.451549,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x0000 PTR 191.65.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+319,6.452383,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Join group 239.255.255.250 for any sources,Normal,Normal,99.9%,100.0%
+320,6.554174,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+321,6.554174,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+322,6.554174,10.157.69.47,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+323,6.554174,fe80::bc0b:6bff:fec3:fce6,ff02::16,ICMPv6,150,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+324,6.554692,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+325,6.656065,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+326,6.656065,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+327,6.656065,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+328,6.656663,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+329,6.75871,10.157.69.115,239.255.255.250,SSDP,212,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+330,6.75871,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+331,6.75871,10.157.70.35,224.0.0.251,MDNS,84,"Standard query 0x0822 PTR 1.64.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+332,6.775796,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=9fe5c42b830581bb, PKN: 6, PADDING, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, PING, PING, PADDING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO",Normal,Normal,100.0%,100.0%
+333,6.861432,10.157.70.35,224.0.0.22,IGMPv3,62,Membership Report / Leave group 239.255.255.250 / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+334,6.861432,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+335,6.861432,fe80::b425:46ff:fe52:3f96,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+336,6.861432,10.157.64.102,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+337,6.971175,10.157.64.102,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+338,6.971175,HuiZhouGaosh_7a:fe:71,Broadcast,ARP,56,Who has 10.157.64.102? Tell 10.157.65.239,Posible Ataque,Posible Ataque,99.8%,100.0%
+339,6.971175,10.157.64.102,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+340,6.971175,fe80::433:21ff:fe62:404,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+341,6.971841,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.10? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+342,6.971841,10.157.64.102,224.0.0.251,MDNS,82,"Standard query 0x0001 PTR _googlecast._tcp.local, ""QU"" question",Normal,Normal,99.9%,100.0%
+343,6.971841,fe80::433:21ff:fe62:404,ff02::fb,MDNS,102,"Standard query 0x0001 PTR _googlecast._tcp.local, ""QU"" question",Sospechoso,Sospechoso,99.8%,100.0%
+344,6.972475,10.157.64.102,224.0.0.251,MDNS,103,"Standard query 0x0001 PTR _googlecast._tcp.local, ""QU"" question PTR _674A0243._sub._googlecast._tcp.local, ""QU"" question",Normal,Normal,99.9%,100.0%
+345,6.972475,fe80::433:21ff:fe62:404,ff02::fb,MDNS,123,"Standard query 0x0001 PTR _googlecast._tcp.local, ""QU"" question PTR _674A0243._sub._googlecast._tcp.local, ""QU"" question",Sospechoso,Sospechoso,99.8%,100.0%
+346,6.972475,10.157.64.102,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+347,6.973112,fe80::433:21ff:fe62:404,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+348,6.973112,10.157.64.102,224.0.0.251,MDNS,119,"Standard query 0x0001 PTR _googlecast._tcp.local, ""QU"" question PTR _674A0243._sub._googlecast._tcp.local, ""QU"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QU"" question",Normal,Normal,99.9%,100.0%
+349,7.066664,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+350,7.066664,10.157.71.174,224.0.0.251,MDNS,82,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+351,7.066664,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,102,"Standard query 0x0000 PTR _googlecast._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+352,7.067232,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+353,7.067232,10.157.70.35,224.0.0.22,IGMPv3,62,Membership Report / Leave group 239.255.255.250 / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+354,7.167519,26:d3:7c:f6:3c:f7,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.69.221,Posible Ataque,Posible Ataque,99.8%,100.0%
+355,7.271626,::,ff02::1:ff94:2bb9,ICMPv6,86,Neighbor Solicitation for fe80::93c8:102:ce94:2bb9,Sospechoso,Sospechoso,99.8%,100.0%
+356,7.271626,::,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+357,7.271626,0.0.0.0,255.255.255.255,DHCP,336,DHCP Request  - Transaction ID 0xa0092772,Normal,Normal,99.3%,100.0%
+358,7.272404,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+359,7.272404,10.157.64.96,10.157.71.255,STEAMDISCOVER,82,Client Discovery Seq=1,Normal,Normal,100.0%,100.0%
+360,7.272404,CloudNetwork_c3:41:a7,Broadcast,ARP,56,Who has 10.157.64.96? Tell 10.157.65.178,Posible Ataque,Posible Ataque,99.8%,100.0%
+361,7.272684,fe80::d5b9:6311:a76b:ed7e,ff02::1:2,DHCPv6,120,Information-request XID: 0x92c2e6 CID: 000100012a7758510045e20ccc8f ,Sospechoso,Sospechoso,99.7%,100.0%
+362,7.272684,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+363,7.273322,10.157.64.73,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+364,7.273322,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+365,7.273322,AzureWaveTec_cb:7a:3c,Broadcast,ARP,56,Who has 10.157.64.96? Tell 10.157.68.67,Posible Ataque,Posible Ataque,99.8%,100.0%
+366,7.373551,CloudNetwork_39:c2:e3,Broadcast,ARP,56,Who has 10.157.64.96? Tell 10.157.71.22,Posible Ataque,Posible Ataque,99.8%,100.0%
+367,7.373551,HuiZhouGaosh_7a:fe:71,Broadcast,ARP,56,Who has 10.157.70.160? Tell 10.157.65.239,Posible Ataque,Posible Ataque,99.8%,100.0%
+368,7.373551,Intel_91:23:5f,Broadcast,ARP,56,Who has 10.157.64.96? Tell 10.157.69.115,Posible Ataque,Posible Ataque,99.8%,100.0%
+369,7.373551,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+370,7.475696,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+371,7.475696,10.157.65.211,224.0.0.22,IGMPv3,62,Membership Report / Join group 224.0.0.252 for any sources / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+372,7.475696,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,130,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+373,7.577608,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+374,7.577608,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+375,7.577608,fe80::837:9bff:fe38:549c,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+376,7.578221,10.157.69.115,239.255.255.250,SSDP,212,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+377,7.578221,0.0.0.0,255.255.255.255,DHCP,342,DHCP Discover - Transaction ID 0x6ffb549d,Normal,Normal,99.3%,100.0%
+378,7.578221,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+379,7.680701,fe80::6cd2:77ff:fece:2bdc,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+380,7.680701,10.157.67.128,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+381,7.680701,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+382,7.681327,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+383,7.681327,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+384,7.681327,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+385,7.782755,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.201? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+386,7.782755,10.157.64.102,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+387,7.782755,10.157.69.241,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+388,7.885087,fe80::93c8:102:ce94:2bb9,ff02::2,ICMPv6,70,Router Solicitation from 64:11:a4:2d:d0:b8,Sospechoso,Sospechoso,99.8%,100.0%
+389,7.885087,fe80::93c8:102:ce94:2bb9,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+390,7.885087,fe80::433:21ff:fe62:404,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+391,7.885087,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+392,7.885087,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+393,7.980891,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=9fe5c42b830581bb, PKN: 8, PADDING, CRYPTO, PADDING, CRYPTO, CRYPTO, PING, PING, CRYPTO, PADDING, CRYPTO, CRYPTO, PING, PADDING, PING, PADDING, PING, CRYPTO, PADDING, CRYPTO, PADDING",Normal,Normal,100.0%,100.0%
+394,7.990235,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+395,7.990235,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.10? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+396,7.991228,10.157.64.102,224.0.0.251,MDNS,184,"Standard query 0x0002 PTR _googlecast._tcp.local, ""QM"" question PTR _%9E5E7C8F47989526C9BCD95D24084F6F0B27C5ED._sub._googlecast._tcp.local, ""QM"" question PTR _674A0243._sub._googlecast._tcp.local, ""QM"" question PTR _CFE7FEDA._sub._googlecast._tcp.local, ""QM"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+397,7.991228,fe80::433:21ff:fe62:404,ff02::fb,MDNS,204,"Standard query 0x0002 PTR _googlecast._tcp.local, ""QM"" question PTR _%9E5E7C8F47989526C9BCD95D24084F6F0B27C5ED._sub._googlecast._tcp.local, ""QM"" question PTR _674A0243._sub._googlecast._tcp.local, ""QM"" question PTR _CFE7FEDA._sub._googlecast._tcp.local, ""QM"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+398,7.991842,fe80::f83f:2aff:fe69:9fe7,ff02::16,ICMPv6,150,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+399,8.089947,fe80::fc2a:e8ff:fecc:5618,ff02::2,ICMPv6,70,Router Solicitation from fe:2a:e8:cc:56:18,Sospechoso,Sospechoso,99.8%,100.0%
+400,8.089947,fa:3f:2a:69:9f:e7,Broadcast,ARP,56,Gratuitous ARP for 10.157.70.69 (Reply),Posible Ataque,Posible Ataque,99.8%,100.0%
+401,8.089947,10.157.67.128,224.0.0.251,MDNS,136,"Standard query 0x0000 ANY IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local, ""QM"" question SRV 0 0 53601 Android_9WS6NCJJ.local",Normal,Normal,99.9%,100.0%
+402,8.090463,fe80::6cd2:77ff:fece:2bdc,ff02::fb,MDNS,156,"Standard query 0x0000 ANY IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local, ""QM"" question SRV 0 0 53601 Android_9WS6NCJJ.local",Sospechoso,Sospechoso,99.8%,100.0%
+403,8.090463,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+404,8.090463,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+405,8.091356,HuiZhouGaosh_7a:fe:71,Broadcast,ARP,56,Who has 10.157.70.160? Tell 10.157.65.239,Posible Ataque,Posible Ataque,99.8%,100.0%
+406,8.226413,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x6162 HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.5%,100.0%
+407,8.226609,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x1e49 A chrome.cloudflare-dns.com,Normal,Normal,99.5%,100.0%
+408,8.24616,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0x6162 HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.6%,100.0%
+409,8.24616,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0x1e49 A chrome.cloudflare-dns.com A 162.159.61.3 A 172.64.41.3,Normal,Normal,99.5%,100.0%
+410,8.24812,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a729c9d06edae669, PKN: 1, PING, PING, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, CRYPTO, PING, CRYPTO, PING, PING, CRYPTO, PADDING, CRYPTO, CRYPTO",Normal,Normal,99.9%,100.0%
+411,8.248179,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a729c9d06edae669, PKN: 2, CRYPTO, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PING, PADDING, PING, PADDING, PING, PADDING, PING, PING, CRYPTO, PING, CRYPTO, PING, CRYPTO, PING, CRYPTO",Normal,Normal,99.9%,100.0%
+412,8.248453,10.157.69.106,162.159.61.3,TCP,66,51189  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+413,8.256484,162.159.61.3,10.157.69.106,TCP,66,"443  >  51189 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+414,8.256659,10.157.69.106,162.159.61.3,TCP,54,51189  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+415,8.257283,10.157.69.106,162.159.61.3,TLSv1.2,1821,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+416,8.259809,162.159.61.3,10.157.69.106,TCP,56,"443  >  51189 [RST, ACK] Seq=1 Ack=1768 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+417,8.260871,10.157.69.106,162.159.61.3,TCP,66,57615  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+418,8.267335,162.159.61.3,10.157.69.106,TCP,66,"443  >  57615 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+419,8.267565,10.157.69.106,162.159.61.3,TCP,54,57615  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+420,8.268523,10.157.69.106,162.159.61.3,TLSv1.2,1853,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+421,8.272637,162.159.61.3,10.157.69.106,TCP,56,"443  >  57615 [RST, ACK] Seq=1 Ack=1800 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+422,8.28343,10.157.67.128,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+423,8.28343,10.157.64.96,10.157.71.255,STEAMDISCOVER,82,Client Discovery Seq=1,Normal,Normal,100.0%,100.0%
+424,8.28343,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+425,8.284143,MotorolaMobi_2d:d0:b8,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.68.27,Posible Ataque,Posible Ataque,99.8%,100.0%
+426,8.284143,fe80::6cd2:77ff:fece:2bdc,ff02::fb,MDNS,156,"Standard query 0x0000 ANY IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local, ""QM"" question SRV 0 0 53601 Android_9WS6NCJJ.local",Sospechoso,Sospechoso,99.8%,100.0%
+427,8.284143,10.157.67.128,224.0.0.251,MDNS,136,"Standard query 0x0000 ANY IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local, ""QM"" question SRV 0 0 53601 Android_9WS6NCJJ.local",Normal,Normal,99.9%,100.0%
+428,8.284143,fe80::93c8:102:ce94:2bb9,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+429,8.284916,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+430,8.284916,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+431,8.501145,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+432,8.50191,10.157.68.221,10.157.71.255,UDP,63,59124  >  32414 Len=21,Normal,Normal,100.0%,100.0%
+433,8.50191,10.157.67.128,224.0.0.251,MDNS,488,"Standard query response 0x0000 PTR, cache flush Android_9WS6NCJJ.local AAAA, cache flush fe80::6cd2:77ff:fece:2bdc PTR, cache flush Android_9WS6NCJJ.local A, cache flush 10.157.67.128 PTR IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local SRV, cache flush 0 0 53601 Android_9WS6NCJJ.local TXT, cache flush PTR _FC9F5ED42C8A._tcp.local NSEC, cache flush C.D.B.2.E.C.E.F.F.F.7.7.2.D.C.6.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush 128.67.157.10.in-addr.arpa NSEC, cache flush IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local",Normal,Normal,99.9%,100.0%
+434,8.50191,fe80::6cd2:77ff:fece:2bdc,ff02::fb,MDNS,508,"Standard query response 0x0000 PTR, cache flush Android_9WS6NCJJ.local AAAA, cache flush fe80::6cd2:77ff:fece:2bdc PTR, cache flush Android_9WS6NCJJ.local A, cache flush 10.157.67.128 PTR IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local SRV, cache flush 0 0 53601 Android_9WS6NCJJ.local TXT, cache flush PTR _FC9F5ED42C8A._tcp.local NSEC, cache flush C.D.B.2.E.C.E.F.F.F.7.7.2.D.C.6.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush 128.67.157.10.in-addr.arpa NSEC, cache flush IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local",Sospechoso,Sospechoso,99.7%,100.0%
+435,8.552579,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a729c9d06edae669, PKN: 4, PADDING, CRYPTO, CRYPTO, PING, PING, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, CRYPTO",Normal,Normal,99.9%,100.0%
+436,8.590796,fe80::6cd2:77ff:fece:2bdc,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+437,8.590796,10.157.65.239,224.0.0.251,MDNS,424,"Standard query response 0x0000 PTR OneScreen-6786._googlecast._tcp.local PTR OneScreen-6786._googlecast._tcp.local TXT, cache flush SRV, cache flush 0 0 8009 Android-6.local A, cache flush 10.157.65.239 AAAA, cache flush fe80::834d:efbb:74a7:5d40 NSEC, cache flush OneScreen-6786._googlecast._tcp.local NSEC, cache flush Android-6.local",Normal,Normal,99.9%,100.0%
+438,8.590796,fe80::834d:efbb:74a7:5d40,ff02::fb,MDNS,444,"Standard query response 0x0000 PTR OneScreen-6786._googlecast._tcp.local PTR OneScreen-6786._googlecast._tcp.local TXT, cache flush SRV, cache flush 0 0 8009 Android-6.local A, cache flush 10.157.65.239 AAAA, cache flush fe80::834d:efbb:74a7:5d40 NSEC, cache flush OneScreen-6786._googlecast._tcp.local NSEC, cache flush Android-6.local",Sospechoso,Sospechoso,99.7%,100.0%
+439,8.591335,10.157.69.241,10.157.71.255,UDP,82,57621  >  57621 Len=40,Normal,Normal,100.0%,100.0%
+440,8.591335,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+441,8.591335,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+442,8.591915,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+443,8.618126,10.157.69.106,163.70.152.60,TLSv1.2,123,Application Data,Normal,Normal,100.0%,100.0%
+444,8.641427,163.70.152.60,10.157.69.106,TCP,56,443  >  61794 [ACK] Seq=1 Ack=70 Win=1306 Len=0,Normal,Normal,100.0%,100.0%
+445,8.704069,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+446,8.766907,10.157.69.106,2.22.20.179,TCP,54,"52647  >  443 [FIN, ACK] Seq=1 Ack=1 Win=1024 Len=0",Normal,Normal,100.0%,100.0%
+447,8.767202,10.157.69.106,2.22.20.179,TCP,54,"52646  >  443 [FIN, ACK] Seq=1 Ack=1 Win=1024 Len=0",Normal,Normal,100.0%,100.0%
+448,8.782394,163.70.152.60,10.157.69.106,TLSv1.2,125,Application Data,Normal,Normal,100.0%,100.0%
+449,8.786846,2.22.20.179,10.157.69.106,TLSv1.2,78,Application Data,Normal,Normal,100.0%,100.0%
+450,8.786846,2.22.20.179,10.157.69.106,TCP,56,"443  >  52647 [FIN, ACK] Seq=25 Ack=2 Win=501 Len=0",Normal,Normal,100.0%,100.0%
+451,8.786846,2.22.20.179,10.157.69.106,TLSv1.2,78,Application Data,Normal,Normal,100.0%,100.0%
+452,8.786846,2.22.20.179,10.157.69.106,TCP,56,"443  >  52646 [FIN, ACK] Seq=25 Ack=2 Win=501 Len=0",Normal,Normal,100.0%,100.0%
+453,8.786998,10.157.69.106,2.22.20.179,TCP,54,"52647  >  443 [RST, ACK] Seq=2 Ack=25 Win=0 Len=0",Normal,Normal,100.0%,100.0%
+454,8.787119,10.157.69.106,2.22.20.179,TCP,54,"52646  >  443 [RST, ACK] Seq=2 Ack=25 Win=0 Len=0",Normal,Normal,100.0%,100.0%
+455,8.795851,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.203? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+456,8.795851,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.201? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+457,8.795851,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+458,8.795851,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Join group 239.255.255.250 for any sources,Normal,Normal,99.9%,100.0%
+459,8.795851,10.157.70.35,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+460,8.823221,10.157.69.106,163.70.152.60,TCP,54,61794  >  443 [ACK] Seq=70 Ack=72 Win=1027 Len=0,Normal,Normal,100.0%,100.0%
+461,8.908742,HuiZhouGaosh_7a:fe:71,Broadcast,ARP,56,Who has 10.157.70.160? Tell 10.157.65.239,Posible Ataque,Posible Ataque,99.8%,100.0%
+462,8.908742,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+463,9.01146,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+464,9.01146,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+465,9.01146,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+466,9.012022,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+467,9.012022,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0xda22 ANY CHIA74417,Sospechoso,Sospechoso,99.8%,100.0%
+468,9.012022,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.8%,100.0%
+469,9.012022,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+470,9.012741,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+471,9.012741,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0xda22 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+472,9.114946,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+473,9.114946,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+474,9.114946,10.157.70.242,224.0.0.251,MDNS,82,"Standard query 0x00d6 ANY Android_9WS6NCJJ.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+475,9.114946,10.157.70.242,224.0.0.251,MDNS,82,"Standard query 0x00d7 PTR Android_9WS6NCJJ.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+476,9.114946,10.157.70.242,224.0.0.251,MDNS,82,"Standard query 0x00d8 SRV Android_9WS6NCJJ.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+477,9.115409,10.157.70.242,224.0.0.251,MDNS,100,"Standard query 0x00d9 TXT Android_9WS6NCJJ._device-info._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+478,9.115409,10.157.70.242,224.0.0.251,MDNS,100,"Standard query 0x00da PTR Android_9WS6NCJJ._device-info._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+479,9.115409,10.157.70.242,224.0.0.251,MDNS,100,"Standard query 0x00db SRV Android_9WS6NCJJ._device-info._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+480,9.116452,10.157.70.242,224.0.0.251,MDNS,99,"Standard query 0x00dc ANY IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+481,9.116452,10.157.70.242,224.0.0.251,MDNS,99,"Standard query 0x00dd PTR IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+482,9.116452,10.157.70.242,224.0.0.251,MDNS,99,"Standard query 0x00de SRV IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+483,9.116452,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+484,9.159239,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a729c9d06edae669, PKN: 6, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PING, PING, CRYPTO, PING, PING, PADDING, PING, PING, PING, PING, PADDING, CRYPTO, PING",Normal,Normal,99.9%,100.0%
+485,9.206546,fe80::b084:faff:fec3:34f1,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+486,9.206546,b2:84:fa:c3:34:f1,Broadcast,ARP,56,Gratuitous ARP for 10.157.66.117 (Reply),Posible Ataque,Posible Ataque,99.8%,100.0%
+487,9.319086,10.157.64.73,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+488,9.319086,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+489,9.319086,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+490,9.319086,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+491,9.319086,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Join group 239.255.255.250 for any sources,Normal,Normal,99.9%,100.0%
+492,9.42101,Intel_91:23:5f,Broadcast,ARP,56,Who has 10.157.64.96? Tell 10.157.69.115,Posible Ataque,Posible Ataque,99.8%,100.0%
+493,9.42101,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+494,9.524176,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+495,9.524176,fe80::253b:e09a:6ba7:f426,ff02::1:2,DHCPv6,120,Information-request XID: 0x838429 CID: 000100012f505c8aa036bc6a1a0c ,Sospechoso,Sospechoso,99.6%,100.0%
+496,9.524176,10.157.65.239,224.0.0.251,MDNS,195,"Standard query 0x0000 ANY OneScreen-6786._airplay._tcp.local, ""QM"" question ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51010 es-D43D52499B68.local SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+497,9.524176,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+498,9.625752,10.157.67.128,224.0.0.251,MDNS,488,"Standard query response 0x0000 PTR, cache flush Android_9WS6NCJJ.local AAAA, cache flush fe80::6cd2:77ff:fece:2bdc PTR, cache flush Android_9WS6NCJJ.local A, cache flush 10.157.67.128 PTR IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local SRV, cache flush 0 0 53601 Android_9WS6NCJJ.local TXT, cache flush PTR _FC9F5ED42C8A._tcp.local NSEC, cache flush C.D.B.2.E.C.E.F.F.F.7.7.2.D.C.6.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush 128.67.157.10.in-addr.arpa NSEC, cache flush IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local",Normal,Normal,99.9%,100.0%
+499,9.625752,fe80::6cd2:77ff:fece:2bdc,ff02::fb,MDNS,508,"Standard query response 0x0000 PTR, cache flush Android_9WS6NCJJ.local AAAA, cache flush fe80::6cd2:77ff:fece:2bdc PTR, cache flush Android_9WS6NCJJ.local A, cache flush 10.157.67.128 PTR IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local SRV, cache flush 0 0 53601 Android_9WS6NCJJ.local TXT, cache flush PTR _FC9F5ED42C8A._tcp.local NSEC, cache flush C.D.B.2.E.C.E.F.F.F.7.7.2.D.C.6.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush 128.67.157.10.in-addr.arpa NSEC, cache flush IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local",Sospechoso,Sospechoso,99.7%,100.0%
+500,9.625752,10.157.69.241,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+501,9.625752,fe80::6074:55ff:fe12:b795,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+502,9.626545,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+503,9.709516,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xd8c2 HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.5%,100.0%
+504,9.709787,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xa36b A chrome.cloudflare-dns.com,Normal,Normal,99.5%,100.0%
+505,9.73181,10.157.64.102,224.0.0.251,MDNS,184,"Standard query 0x0002 PTR _googlecast._tcp.local, ""QM"" question PTR _%9E5E7C8F47989526C9BCD95D24084F6F0B27C5ED._sub._googlecast._tcp.local, ""QM"" question PTR _674A0243._sub._googlecast._tcp.local, ""QM"" question PTR _CFE7FEDA._sub._googlecast._tcp.local, ""QM"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+506,9.73181,fe80::433:21ff:fe62:404,ff02::fb,MDNS,204,"Standard query 0x0002 PTR _googlecast._tcp.local, ""QM"" question PTR _%9E5E7C8F47989526C9BCD95D24084F6F0B27C5ED._sub._googlecast._tcp.local, ""QM"" question PTR _674A0243._sub._googlecast._tcp.local, ""QM"" question PTR _CFE7FEDA._sub._googlecast._tcp.local, ""QM"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+507,9.73181,fe80::93c8:102:ce94:2bb9,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+508,9.732524,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.203? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+509,9.732524,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+510,9.74609,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0xd8c2 HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.6%,100.0%
+511,9.74609,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xa36b A chrome.cloudflare-dns.com A 172.64.41.3 A 162.159.61.3,Normal,Normal,99.6%,100.0%
+512,9.747933,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=03e00790f3c9f55b, PKN: 1, PING, CRYPTO, PING, PING, CRYPTO, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PADDING, PING, PADDING",Normal,Normal,99.9%,100.0%
+513,9.748013,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=03e00790f3c9f55b, PKN: 2, PADDING, PING, CRYPTO, PADDING, PING, CRYPTO, PADDING, PING, PADDING, CRYPTO, PADDING, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+514,9.748385,10.157.69.106,172.64.41.3,TCP,66,64320  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+515,9.760166,172.64.41.3,10.157.69.106,TCP,66,"443  >  64320 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+516,9.760304,10.157.69.106,172.64.41.3,TCP,54,64320  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+517,9.761073,10.157.69.106,172.64.41.3,TLSv1.2,1853,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+518,9.76639,172.64.41.3,10.157.69.106,TCP,56,"443  >  64320 [RST, ACK] Seq=1 Ack=1800 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+519,9.767602,10.157.69.106,172.64.41.3,TCP,66,56542  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+520,9.774906,172.64.41.3,10.157.69.106,TCP,66,"443  >  56542 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+521,9.775156,10.157.69.106,172.64.41.3,TCP,54,56542  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+522,9.776454,10.157.69.106,172.64.41.3,TLSv1.2,1853,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+523,9.780704,172.64.41.3,10.157.69.106,TCP,56,"443  >  56542 [RST, ACK] Seq=1 Ack=1800 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+524,9.873654,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=9fe5c42b830581bb, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+525,10.035847,::,ff02::1:ff9d:c693,ICMPv6,86,Neighbor Solicitation for fe80::ecd7:30ff:fe9d:c693,Sospechoso,Sospechoso,99.7%,100.0%
+526,10.035847,::,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+527,10.035847,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+528,10.035847,0.0.0.0,255.255.255.255,DHCP,350,DHCP Request  - Transaction ID 0x6afc3aad,Normal,Normal,99.3%,100.0%
+529,10.035847,fe80::837:9bff:fe38:549c,ff02::2,ICMPv6,70,Router Solicitation from 0a:37:9b:38:54:9c,Sospechoso,Sospechoso,99.7%,100.0%
+530,10.036591,10.157.65.239,224.0.0.251,MDNS,195,"Standard query 0x0000 ANY OneScreen-6786._airplay._tcp.local, ""QM"" question ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51010 es-D43D52499B68.local SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+531,10.050928,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=03e00790f3c9f55b, PKN: 4, PING, PING, PING, PING, CRYPTO, PADDING, PING, CRYPTO, PADDING, PING, CRYPTO, PADDING, CRYPTO, PADDING, PING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, CRYPTO, PING, CRYPTO, PING",Normal,Normal,99.9%,100.0%
+532,10.138532,Intel_48:f1:bb,Broadcast,ARP,56,Who has 169.254.174.210? Tell 10.157.67.172,Posible Ataque,Posible Ataque,99.8%,100.0%
+533,10.138532,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+534,10.138532,10.157.70.35,224.0.0.22,IGMPv3,62,Membership Report / Leave group 239.255.255.250 / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+535,10.138532,ee:d7:30:9d:c6:93,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.71.8,Posible Ataque,Posible Ataque,99.8%,100.0%
+536,10.138532,ee:d7:30:9d:c6:93,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.71.8,Posible Ataque,Posible Ataque,99.8%,100.0%
+537,10.139869,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+538,10.239925,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+539,10.343307,10.157.71.174,10.157.71.255,STEAMDISCOVER,209,Client Status from SACRO[Malformed Packet],Normal,Normal,99.9%,100.0%
+540,10.343307,10.157.71.174,10.157.71.255,STEAMDISCOVER,83,Client Discovery Seq=1,Normal,Normal,100.0%,100.0%
+541,10.343307,10.157.65.239,224.0.0.251,MDNS,811,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR OneScreen-6786._airplay._tcp.local TXT, cache flush PTR _raop._tcp.local PTR D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local SRV, cache flush 0 0 51010 es-D43D52499B68.local SRV, cache flush 0 0 51040 es-D43D52499B68.local A, cache flush 10.157.65.239 NSEC, cache flush es-D43D52499B68.local NSEC, cache flush OneScreen-6786._airplay._tcp.local NSEC, cache flush D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local",Normal,Normal,99.8%,100.0%
+542,10.343307,10.157.65.239,224.0.0.251,MDNS,424,"Standard query response 0x0000 PTR OneScreen-6786._googlecast._tcp.local PTR OneScreen-6786._googlecast._tcp.local TXT, cache flush SRV, cache flush 0 0 8009 Android-6.local A, cache flush 10.157.65.239 AAAA, cache flush fe80::834d:efbb:74a7:5d40 NSEC, cache flush OneScreen-6786._googlecast._tcp.local NSEC, cache flush Android-6.local",Normal,Normal,99.9%,100.0%
+543,10.344026,fe80::834d:efbb:74a7:5d40,ff02::fb,MDNS,444,"Standard query response 0x0000 PTR OneScreen-6786._googlecast._tcp.local PTR OneScreen-6786._googlecast._tcp.local TXT, cache flush SRV, cache flush 0 0 8009 Android-6.local A, cache flush 10.157.65.239 AAAA, cache flush fe80::834d:efbb:74a7:5d40 NSEC, cache flush OneScreen-6786._googlecast._tcp.local NSEC, cache flush Android-6.local",Sospechoso,Sospechoso,99.7%,100.0%
+544,10.344026,LiteonTechno_2d:bb:ed,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.70.67,Posible Ataque,Posible Ataque,99.8%,100.0%
+545,10.344026,8c:8b:5b:07:2c:3b,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.70.209,Posible Ataque,Posible Ataque,99.8%,100.0%
+546,10.344632,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+547,10.344632,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+548,10.344632,AzureWaveTec_3f:ee:1f,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.64.96,Posible Ataque,Posible Ataque,99.8%,100.0%
+549,10.371097,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a729c9d06edae669, PKN: 8, CRYPTO, CRYPTO, PING, CRYPTO, PING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+550,10.445078,AzureWaveTec_cb:7a:3c,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.68.67,Posible Ataque,Posible Ataque,99.8%,100.0%
+551,10.445078,CloudNetwork_39:c2:e3,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.71.22,Posible Ataque,Posible Ataque,99.8%,100.0%
+552,10.445078,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+553,10.445078,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+554,10.44635,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+555,10.547414,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+556,10.547414,Intel_91:23:5f,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.69.115,Posible Ataque,Posible Ataque,99.8%,100.0%
+557,10.547414,CloudNetwork_c3:41:a7,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.65.178,Posible Ataque,Posible Ataque,99.8%,100.0%
+558,10.547414,fe80::bc0b:6bff:fec3:fce6,ff02::2,ICMPv6,70,Router Solicitation from be:0b:6b:c3:fc:e6,Sospechoso,Sospechoso,99.7%,100.0%
+559,10.650772,50:2e:91:92:3a:b6,Broadcast,ARP,56,Who has 10.157.64.187? Tell 10.157.70.242,Posible Ataque,Posible Ataque,99.8%,100.0%
+560,10.650772,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+561,10.650772,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+562,10.650772,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+563,10.650772,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+564,10.650772,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+565,10.651408,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+566,10.651408,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+567,10.651408,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x1f79 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+568,10.652153,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+569,10.652153,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+570,10.653431,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+571,10.65975,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=03e00790f3c9f55b, PKN: 6, PING, PING, CRYPTO, PADDING, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PING, PING, PADDING, PING, PING, CRYPTO",Normal,Normal,99.9%,100.0%
+572,10.686689,10.157.69.106,8.8.8.8,DNS,70,Standard query 0xa52b A c.pki.goog,Normal,Normal,99.5%,100.0%
+573,10.745034,10.157.69.106,10.157.65.239,TCP,164,"52502  >  8009 [PSH, ACK] Seq=221 Ack=231 Win=1023 Len=110",Normal,Normal,100.0%,100.0%
+574,10.753339,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+575,10.753339,10.157.64.102,224.0.0.251,MDNS,184,"Standard query 0x0003 PTR _googlecast._tcp.local, ""QM"" question PTR _%9E5E7C8F47989526C9BCD95D24084F6F0B27C5ED._sub._googlecast._tcp.local, ""QM"" question PTR _674A0243._sub._googlecast._tcp.local, ""QM"" question PTR _CFE7FEDA._sub._googlecast._tcp.local, ""QM"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+576,10.753339,fe80::433:21ff:fe62:404,ff02::fb,MDNS,204,"Standard query 0x0003 PTR _googlecast._tcp.local, ""QM"" question PTR _%9E5E7C8F47989526C9BCD95D24084F6F0B27C5ED._sub._googlecast._tcp.local, ""QM"" question PTR _674A0243._sub._googlecast._tcp.local, ""QM"" question PTR _CFE7FEDA._sub._googlecast._tcp.local, ""QM"" question PTR _8E6C866D._sub._googlecast._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+577,10.756759,fe80::ecd7:30ff:fe9d:c693,ff02::2,ICMPv6,70,Router Solicitation from ee:d7:30:9d:c6:93,Sospechoso,Sospechoso,99.7%,100.0%
+578,10.756759,fe80::ecd7:30ff:fe9d:c693,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+579,10.756759,Intel_48:f1:bb,Broadcast,ARP,56,Who has 169.254.174.210? Tell 10.157.67.172,Posible Ataque,Posible Ataque,99.8%,100.0%
+580,10.758032,fe80::4343:107b:99c5:ffad,ff02::1:2,DHCPv6,120,Information-request XID: 0xd48348 CID: 000100013124e4e240c2ba55ec7b ,Sospechoso,Sospechoso,99.6%,100.0%
+581,10.758032,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.203? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+582,10.758032,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+583,10.758032,fe80::ecd7:30ff:fe9d:c693,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+584,10.761079,8.8.8.8,10.157.69.106,DNS,121,Standard query response 0xa52b A c.pki.goog CNAME pki-goog.l.google.com A 142.251.133.99,Normal,Normal,99.6%,100.0%
+585,10.765987,10.157.69.106,142.251.133.99,TCP,66,56543  >  80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+586,10.784083,10.157.65.239,10.157.69.106,TCP,56,8009  >  52502 [ACK] Seq=231 Ack=331 Win=1161 Len=0,Normal,Normal,100.0%,100.0%
+587,10.784083,142.251.133.99,10.157.69.106,TCP,66,"80  >  56543 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1412 SACK_PERM WS=256",Normal,Normal,100.0%,100.0%
+588,10.784259,10.157.69.106,142.251.133.99,TCP,54,56543  >  80 [ACK] Seq=1 Ack=1 Win=262400 Len=0,Normal,Normal,100.0%,100.0%
+589,10.784474,10.157.69.106,142.251.133.99,HTTP,256,GET /r/gsr1.crl HTTP/1.1 ,Normal,Normal,99.7%,100.0%
+590,10.791769,142.251.133.99,10.157.69.106,TCP,56,80  >  56543 [ACK] Seq=1 Ack=203 Win=65280 Len=0,Normal,Normal,100.0%,100.0%
+591,10.791769,142.251.133.99,10.157.69.106,HTTP,277,HTTP/1.1 304 Not Modified ,Normal,Normal,99.7%,100.0%
+592,10.798897,10.157.65.239,10.157.69.106,TCP,169,"8009  >  52502 [PSH, ACK] Seq=231 Ack=331 Win=1161 Len=115",Normal,Normal,100.0%,100.0%
+593,10.805752,10.157.69.106,142.251.133.99,HTTP,254,GET /r/r4.crl HTTP/1.1 ,Normal,Normal,99.7%,100.0%
+594,10.812303,142.251.133.99,10.157.69.106,TCP,56,80  >  56543 [ACK] Seq=224 Ack=403 Win=269568 Len=0,Normal,Normal,100.0%,100.0%
+595,10.82065,142.251.133.99,10.157.69.106,HTTP,276,HTTP/1.1 304 Not Modified ,Normal,Normal,99.7%,100.0%
+596,10.838833,10.157.69.106,10.157.65.239,TCP,54,52502  >  8009 [ACK] Seq=331 Ack=346 Win=1023 Len=0,Normal,Normal,100.0%,100.0%
+597,10.843297,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+598,10.843297,10.157.69.64,239.255.255.250,IGMPv2,56,Membership Report group 239.255.255.250,Normal,Normal,99.9%,100.0%
+599,10.843297,fe80::14fa:e359:4b33:18e4,ff02::fb,MDNS,120,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QU"" question PTR _companion-link._tcp.local, ""QU"" question",Sospechoso,Sospechoso,99.8%,100.0%
+600,10.843911,10.157.69.64,224.0.0.251,MDNS,100,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QU"" question PTR _companion-link._tcp.local, ""QU"" question",Normal,Normal,99.9%,100.0%
+601,10.843911,10.157.69.64,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+602,10.843911,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+603,10.844355,10.157.69.64,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+604,10.844355,fe80::14fa:e359:4b33:18e4,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+605,10.844355,10.157.67.128,224.0.0.251,MDNS,179,"Standard query response 0x0000 AAAA, cache flush fe80::6cd2:77ff:fece:2bdc A, cache flush 10.157.67.128 NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush Android_9WS6NCJJ.local",Normal,Normal,99.9%,100.0%
+606,10.845156,fe80::69:28e0:f96c:6ce0,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+607,10.845156,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,260,"Standard query response 0x0000 PTR, cache flush MacBook-Air-de-Juanito.local PTR, cache flush MacBook-Air-de-Juanito.local NSEC, cache flush 0.E.C.6.C.6.9.F.0.E.8.2.9.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush 123.68.157.10.in-addr.arpa",Sospechoso,Sospechoso,99.7%,100.0%
+608,10.845156,10.157.68.123,224.0.0.251,MDNS,240,"Standard query response 0x0000 PTR, cache flush MacBook-Air-de-Juanito.local PTR, cache flush MacBook-Air-de-Juanito.local NSEC, cache flush 0.E.C.6.C.6.9.F.0.E.8.2.9.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush 123.68.157.10.in-addr.arpa",Normal,Normal,99.9%,100.0%
+609,10.846204,06:4b:df:b2:3f:68,Broadcast,ARP,56,ARP Announcement for 10.157.68.123,Posible Ataque,Posible Ataque,99.8%,100.0%
+610,10.872887,10.157.69.106,142.251.133.99,TCP,54,56543  >  80 [ACK] Seq=403 Ack=446 Win=262144 Len=0,Normal,Normal,100.0%,100.0%
+611,10.957516,10.157.64.102,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+612,10.957516,06:4b:df:b2:3f:68,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.68.123,Posible Ataque,Posible Ataque,99.8%,100.0%
+613,11.060363,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+614,11.060363,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+615,11.060363,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+616,11.060363,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+617,11.16256,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+618,11.16256,fe80::14fa:e359:4b33:18e4,ff02::fb,MDNS,120,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+619,11.16256,10.157.69.64,224.0.0.251,MDNS,100,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+620,11.163096,06:4b:df:b2:3f:68,Broadcast,ARP,56,Who has 10.157.71.105? Tell 10.157.68.123,Posible Ataque,Posible Ataque,99.8%,100.0%
+621,11.163096,06:4b:df:b2:3f:68,Broadcast,ARP,56,Who has 10.157.69.117? Tell 10.157.68.123,Posible Ataque,Posible Ataque,99.8%,100.0%
+622,11.163096,10.157.68.123,224.0.0.251,MDNS,421,"Standard query 0x0000 PTR lb._dns-sd._udp.local, ""QU"" question PTR _airport._tcp.local, ""QU"" question PTR _rdlink._tcp.local, ""QU"" question PTR _uscan._tcp.local, ""QU"" question PTR _scanner._tcp.local, ""QU"" question PTR _ipp._tcp.local, ""QU"" question PTR _ptp._tcp.local, ""QU"" question PTR _pdl-datastream._tcp.local, ""QU"" question PTR _ippusb._tcp.local, ""QU"" question PTR _printer._tcp.local, ""QU"" question PTR _uscans._tcp.local, ""QU"" question PTR _ipps._tcp.local, ""QU"" question PTR _airplay._tcp.local, ""QU"" question PTR _raop._tcp.local, ""QU"" question PTR _afpovertcp._tcp.local, ""QU"" question PTR _smb._tcp.local, ""QU"" question PTR _rfb._tcp.local, ""QU"" question PTR _adisk._tcp.local, ""QU"" question PTR _apple-mobdev._tcp.local, ""QU"" question PTR 929b07e0._sub._apple-mobdev2._tcp.local, ""QU"" question PTR _apple-pairable._tcp.local, ""QU"" question PTR _companion-link._tcp.local, ""QU"" question",Normal,Normal,99.9%,100.0%
+623,11.163852,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,441,"Standard query 0x0000 PTR lb._dns-sd._udp.local, ""QU"" question PTR _airport._tcp.local, ""QU"" question PTR _rdlink._tcp.local, ""QU"" question PTR _uscan._tcp.local, ""QU"" question PTR _scanner._tcp.local, ""QU"" question PTR _ipp._tcp.local, ""QU"" question PTR _ptp._tcp.local, ""QU"" question PTR _pdl-datastream._tcp.local, ""QU"" question PTR _ippusb._tcp.local, ""QU"" question PTR _printer._tcp.local, ""QU"" question PTR _uscans._tcp.local, ""QU"" question PTR _ipps._tcp.local, ""QU"" question PTR _airplay._tcp.local, ""QU"" question PTR _raop._tcp.local, ""QU"" question PTR _afpovertcp._tcp.local, ""QU"" question PTR _smb._tcp.local, ""QU"" question PTR _rfb._tcp.local, ""QU"" question PTR _adisk._tcp.local, ""QU"" question PTR _apple-mobdev._tcp.local, ""QU"" question PTR 929b07e0._sub._apple-mobdev2._tcp.local, ""QU"" question PTR _apple-pairable._tcp.local, ""QU"" question PTR _companion-link._tcp.local, ""QU"" question",Sospechoso,Sospechoso,99.6%,100.0%
+624,11.264155,HuiZhouGaosh_db:25:b6,Broadcast,ARP,56,Who has 10.157.64.116? Tell 10.157.70.96,Posible Ataque,Posible Ataque,99.8%,100.0%
+625,11.264155,10.157.65.239,224.0.0.251,MDNS,193,"Standard query response 0x0000 SRV, cache flush 0 0 51040 es-D43D52499B68.local A, cache flush 10.157.65.239 NSEC, cache flush es-D43D52499B68.local NSEC, cache flush D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local",Normal,Normal,99.9%,100.0%
+626,11.264155,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+627,11.264821,10.157.64.73,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+628,11.367586,fe80::69:28e0:f96c:6ce0,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+629,11.367586,fe80::ecd7:30ff:fe9d:c693,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+630,11.367586,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+631,11.367586,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+632,11.367586,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+633,11.470031,fe80::9ab7:97e9:2c25:2da8,ff02::2,ICMPv6,70,Router Solicitation from 18:70:3b:65:91:7e,Sospechoso,Sospechoso,99.7%,100.0%
+634,11.470031,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+635,11.470031,10.157.65.239,224.0.0.251,MDNS,758,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR OneScreen-6786._airplay._tcp.local TXT, cache flush PTR _raop._tcp.local PTR D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local SRV, cache flush 0 0 51010 es-D43D52499B68.local NSEC, cache flush OneScreen-6786._airplay._tcp.local NSEC, cache flush D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local",Normal,Normal,99.8%,100.0%
+636,11.470031,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+637,11.470031,10.157.68.123,224.0.0.251,MDNS,136,"Standard query 0x0000 PTR _raop._tcp.local, ""QM"" question TXT MacBook Air de Juanito._airplay._tcp.local, ""QU"" question PTR _companion-link._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+638,11.470031,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,156,"Standard query 0x0000 PTR _raop._tcp.local, ""QM"" question TXT MacBook Air de Juanito._airplay._tcp.local, ""QU"" question PTR _companion-link._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+639,11.571653,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+640,11.571653,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+641,11.571653,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+642,11.5726,fe80::19f8:a45b:4132:6df,ff02::fb,MDNS,106,"Standard query 0x0000 PTR 187.64.157.10.in-addr.arpa, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+643,11.5726,b6:25:46:52:3f:96,Broadcast,ARP,56,Who has 10.40.1.1? Tell 10.40.2.140,Posible Ataque,Posible Ataque,99.8%,100.0%
+644,11.675439,10.157.67.128,224.0.0.251,MDNS,488,"Standard query response 0x0000 PTR, cache flush Android_9WS6NCJJ.local AAAA, cache flush fe80::6cd2:77ff:fece:2bdc PTR, cache flush Android_9WS6NCJJ.local A, cache flush 10.157.67.128 PTR IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local SRV, cache flush 0 0 53601 Android_9WS6NCJJ.local TXT, cache flush PTR _FC9F5ED42C8A._tcp.local NSEC, cache flush C.D.B.2.E.C.E.F.F.F.7.7.2.D.C.6.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush 128.67.157.10.in-addr.arpa NSEC, cache flush IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local",Normal,Normal,99.8%,100.0%
+645,11.675439,fe80::6cd2:77ff:fece:2bdc,ff02::fb,MDNS,508,"Standard query response 0x0000 PTR, cache flush Android_9WS6NCJJ.local AAAA, cache flush fe80::6cd2:77ff:fece:2bdc PTR, cache flush Android_9WS6NCJJ.local A, cache flush 10.157.67.128 PTR IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local SRV, cache flush 0 0 53601 Android_9WS6NCJJ.local TXT, cache flush PTR _FC9F5ED42C8A._tcp.local NSEC, cache flush C.D.B.2.E.C.E.F.F.F.7.7.2.D.C.6.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush 128.67.157.10.in-addr.arpa NSEC, cache flush IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local",Sospechoso,Sospechoso,99.6%,100.0%
+646,11.675439,10.157.64.187,224.0.0.251,MDNS,105,"Standard query response 0x0000 PTR, cache flush alex1.local",Normal,Normal,99.9%,100.0%
+647,11.675439,10.157.69.241,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+648,11.675439,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,424,"Standard query 0x0000 ANY MacBook Air de Juanito._airplay._tcp.local, ""QM"" question ANY 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local, ""QM"" question ANY F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local, ""QM"" question ANY MacBook Air de Juanito._companion-link._tcp.local, ""QM"" question ANY MacBook-Air-de-Juanito.local, ""QM"" question SRV 0 0 7000 MacBook-Air-de-Juanito.local SRV 0 0 7000 MacBook-Air-de-Juanito.local SRV 0 0 64289 MacBook-Air-de-Juanito.local SRV 0 0 56012 MacBook-Air-de-Juanito.local AAAA fe80::69:28e0:f96c:6ce0 A 10.157.68.123",Sospechoso,Sospechoso,99.6%,100.0%
+649,11.675439,10.157.68.123,224.0.0.251,MDNS,404,"Standard query 0x0000 ANY MacBook Air de Juanito._airplay._tcp.local, ""QM"" question ANY 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local, ""QM"" question ANY F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local, ""QM"" question ANY MacBook Air de Juanito._companion-link._tcp.local, ""QM"" question ANY MacBook-Air-de-Juanito.local, ""QM"" question SRV 0 0 7000 MacBook-Air-de-Juanito.local SRV 0 0 7000 MacBook-Air-de-Juanito.local SRV 0 0 64289 MacBook-Air-de-Juanito.local SRV 0 0 56012 MacBook-Air-de-Juanito.local AAAA fe80::69:28e0:f96c:6ce0 A 10.157.68.123",Normal,Normal,99.9%,100.0%
+650,11.676466,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+651,11.676466,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+652,11.77686,Intel_48:f1:bb,Broadcast,ARP,56,Who has 169.254.174.210? Tell 10.157.67.172,Posible Ataque,Posible Ataque,99.8%,100.0%
+653,11.77686,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.8%,100.0%
+654,11.77686,10.157.70.35,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+655,11.828263,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x7333 HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+656,11.828508,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xc550 A chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+657,11.855031,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xc550 A chrome.cloudflare-dns.com A 162.159.61.3 A 172.64.41.3,Normal,Normal,99.6%,100.0%
+658,11.855031,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0x7333 HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.6%,100.0%
+659,11.856912,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a50f9f1be2eab7b2, PKN: 1, PING, CRYPTO, PADDING, PING, CRYPTO, PING, PADDING, CRYPTO, PING, CRYPTO, PING, PADDING, PING, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO",Normal,Normal,99.9%,100.0%
+660,11.856987,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a50f9f1be2eab7b2, PKN: 2, CRYPTO, PING, PING, CRYPTO, PADDING, CRYPTO, CRYPTO, PADDING, CRYPTO, PING, PADDING, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+661,11.857258,10.157.69.106,162.159.61.3,TCP,66,60274  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+662,11.862831,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=03e00790f3c9f55b, PKN: 8, PADDING, PING, PING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PING, PADDING, PING, PADDING, CRYPTO, PING, PING, PADDING, PING, CRYPTO, PADDING, PING, CRYPTO, PING, PING, CRYPTO",Normal,Normal,99.9%,100.0%
+663,11.867766,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Join group 239.255.255.250 for any sources,Normal,Normal,99.9%,100.0%
+664,11.867766,10.157.68.123,224.0.0.251,MDNS,404,"Standard query 0x0000 ANY MacBook Air de Juanito._airplay._tcp.local, ""QM"" question ANY 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local, ""QM"" question ANY F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local, ""QM"" question ANY MacBook Air de Juanito._companion-link._tcp.local, ""QM"" question ANY MacBook-Air-de-Juanito.local, ""QM"" question SRV 0 0 7000 MacBook-Air-de-Juanito.local SRV 0 0 7000 MacBook-Air-de-Juanito.local SRV 0 0 64289 MacBook-Air-de-Juanito.local SRV 0 0 56012 MacBook-Air-de-Juanito.local AAAA fe80::69:28e0:f96c:6ce0 A 10.157.68.123",Normal,Normal,99.8%,100.0%
+665,11.867766,10.157.71.174,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+666,11.896806,162.159.61.3,10.157.69.106,TCP,66,"443  >  60274 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+667,11.896977,10.157.69.106,162.159.61.3,TCP,54,60274  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+668,11.897642,10.157.69.106,162.159.61.3,TLSv1.2,1821,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+669,11.905162,162.159.61.3,10.157.69.106,TCP,56,"443  >  60274 [RST, ACK] Seq=1 Ack=1768 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+670,11.906177,10.157.69.106,162.159.61.3,TCP,66,64983  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+671,11.919639,162.159.61.3,10.157.69.106,TCP,66,"443  >  64983 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+672,11.919847,10.157.69.106,162.159.61.3,TCP,54,64983  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+673,11.920802,10.157.69.106,162.159.61.3,TLSv1.2,1789,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+674,11.932241,162.159.61.3,10.157.69.106,TCP,56,"443  >  64983 [RST, ACK] Seq=1 Ack=1736 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+675,12.083693,10.157.64.96,224.0.0.251,MDNS,71,"Standard query 0x0000 A error.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+676,12.083693,10.157.64.96,224.0.0.251,MDNS,71,"Standard query 0x0000 A error.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+677,12.083693,fe80::81a0:43c9:3a1c:323b,ff02::fb,MDNS,91,"Standard query 0x0000 A error.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+678,12.084272,fe80::81a0:43c9:3a1c:323b,ff02::fb,MDNS,91,"Standard query 0x0000 A error.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+679,12.084272,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+680,12.163412,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a50f9f1be2eab7b2, PKN: 4, PADDING, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, PING, PADDING, PING",Normal,Normal,99.9%,100.0%
+681,12.194586,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,1431,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR MacBook Air de Juanito._airplay._tcp.local TXT, cache flush PTR _raop._tcp.local PTR 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local TXT, cache flush PTR _asquic._udp.local PTR F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local SRV, cache flush 0 0 64289 MacBook-Air-de-Juanito.local TXT, cache flush PTR _companion-link._tcp.local PTR MacBook Air de Juanito._companion-link._tcp.local TXT SRV, cache flush 0 0 56012 MacBook-Air-de-Juanito.local AAAA, cache flush fe80::69:28e0:f96c:6ce0 A, cache flush 10.157.68.123 NSEC, cache flush MacBook Air de Juanito._airplay._tcp.local NSEC, cache flush 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local NSEC, cache flush F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local NSEC, cache flush MacBook Air de Juanito._companion-link._tcp.local NSEC, cache flush MacBook-Air-de-Juanito.local",Sospechoso,Sospechoso,98.3%,100.0%
+682,12.194586,10.157.68.123,224.0.0.251,MDNS,1411,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR MacBook Air de Juanito._airplay._tcp.local TXT, cache flush PTR _raop._tcp.local PTR 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local TXT, cache flush PTR _asquic._udp.local PTR F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local SRV, cache flush 0 0 64289 MacBook-Air-de-Juanito.local TXT, cache flush PTR _companion-link._tcp.local PTR MacBook Air de Juanito._companion-link._tcp.local TXT SRV, cache flush 0 0 56012 MacBook-Air-de-Juanito.local AAAA, cache flush fe80::69:28e0:f96c:6ce0 A, cache flush 10.157.68.123 NSEC, cache flush MacBook Air de Juanito._airplay._tcp.local NSEC, cache flush 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local NSEC, cache flush F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local NSEC, cache flush MacBook Air de Juanito._companion-link._tcp.local NSEC, cache flush MacBook-Air-de-Juanito.local",Normal,Normal,99.9%,100.0%
+683,12.194586,10.157.69.64,224.0.0.251,MDNS,78,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+684,12.194586,fe80::14fa:e359:4b33:18e4,ff02::fb,MDNS,98,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.8%,100.0%
+685,12.194586,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+686,12.194586,fe80::19f8:a45b:4132:6df,ff02::1:3,LLMNR,106,Standard query 0xd66c PTR 187.64.157.10.in-addr.arpa,Sospechoso,Sospechoso,99.7%,100.0%
+687,12.195261,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x0000 PTR 187.64.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+688,12.198131,fe80::19f8:a45b:4132:6df,ff02::fb,MDNS,106,"Standard query 0x0000 PTR 187.64.157.10.in-addr.arpa, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+689,12.198131,10.157.70.242,224.0.0.252,LLMNR,86,Standard query 0xd66c PTR 187.64.157.10.in-addr.arpa,Normal,Normal,99.9%,100.0%
+690,12.198131,fe80::19f8:a45b:4132:6df,ff02::1:3,LLMNR,106,Standard query 0xd66c PTR 187.64.157.10.in-addr.arpa,Sospechoso,Sospechoso,99.7%,100.0%
+691,12.198131,10.157.70.242,224.0.0.252,LLMNR,86,Standard query 0xd66c PTR 187.64.157.10.in-addr.arpa,Normal,Normal,99.9%,100.0%
+692,12.262276,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a729c9d06edae669, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+693,12.289565,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,437,"Standard query 0x0000 PTR lb._dns-sd._udp.local, ""QM"" question PTR _airport._tcp.local, ""QM"" question PTR _uscan._tcp.local, ""QM"" question PTR _scanner._tcp.local, ""QM"" question PTR _ipp._tcp.local, ""QM"" question PTR _ptp._tcp.local, ""QM"" question PTR _pdl-datastream._tcp.local, ""QM"" question PTR _ippusb._tcp.local, ""QM"" question PTR _printer._tcp.local, ""QM"" question PTR _uscans._tcp.local, ""QM"" question PTR _ipps._tcp.local, ""QM"" question PTR _afpovertcp._tcp.local, ""QM"" question PTR _smb._tcp.local, ""QM"" question PTR _rfb._tcp.local, ""QM"" question PTR _adisk._tcp.local, ""QM"" question PTR _apple-mobdev._tcp.local, ""QM"" question PTR 929b07e0._sub._apple-mobdev2._tcp.local, ""QM"" question PTR _apple-pairable._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question PTR MacBook Air de Juanito._companion-link._tcp.local",Sospechoso,Sospechoso,99.6%,100.0%
+694,12.289565,06:4b:df:b2:3f:68,Broadcast,ARP,56,ARP Announcement for 10.157.68.123,Posible Ataque,Posible Ataque,99.9%,100.0%
+695,12.292457,10.157.71.174,10.157.71.255,STEAMDISCOVER,209,Client Status from SACRO[Malformed Packet],Normal,Normal,99.9%,100.0%
+696,12.292457,10.157.71.174,10.157.71.255,STEAMDISCOVER,83,Client Discovery Seq=1,Normal,Normal,99.9%,100.0%
+697,12.292457,10.157.64.96,10.157.71.255,STEAMDISCOVER,219,Client Status from DESKTOP-GAD6SCF[Malformed Packet],Normal,Normal,99.9%,100.0%
+698,12.293353,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Join group 239.255.255.250 for any sources,Normal,Normal,99.9%,100.0%
+699,12.293353,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+700,12.293353,fe80::69:28e0:f96c:6ce0,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+701,12.391781,b6:25:46:52:3f:96,Broadcast,ARP,56,Who has 10.40.1.1? Tell 10.40.2.140,Posible Ataque,Posible Ataque,99.9%,100.0%
+702,12.391781,LiteonTechno_e9:4b:8f,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.66.236,Posible Ataque,Posible Ataque,99.9%,100.0%
+703,12.391781,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+704,12.391781,10.157.68.123,224.0.0.251,MDNS,146,Standard query response 0x0000 TXT,Normal,Normal,99.9%,100.0%
+705,12.391781,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,166,Standard query response 0x0000 TXT,Sospechoso,Sospechoso,99.7%,100.0%
+706,12.397663,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xb14c HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+707,12.397882,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xa61e A chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+708,12.41985,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xa61e A chrome.cloudflare-dns.com A 162.159.61.3 A 172.64.41.3,Normal,Normal,99.6%,100.0%
+709,12.441339,10.157.69.106,162.159.61.3,TCP,66,50487  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+710,12.461799,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0xb14c HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.6%,100.0%
+711,12.461799,162.159.61.3,10.157.69.106,TCP,66,"443  >  50487 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+712,12.462104,10.157.69.106,162.159.61.3,TCP,54,50487  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+713,12.462844,10.157.69.106,162.159.61.3,TLSv1.2,1853,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+714,12.477231,162.159.61.3,10.157.69.106,TCP,56,"443  >  50487 [RST, ACK] Seq=1 Ack=1800 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+715,12.478506,10.157.69.106,162.159.61.3,TCP,66,55818  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+716,12.483063,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+717,12.483063,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+718,12.484661,fe80::81a0:43c9:3a1c:323b,ff02::1:3,LLMNR,85,Standard query 0x412d A error,Sospechoso,Sospechoso,99.7%,100.0%
+719,12.484661,10.157.64.96,10.157.71.255,NBNS,92,Name query NB ERROR<00>,Normal,Normal,99.9%,100.0%
+720,12.484661,10.157.64.96,224.0.0.251,MDNS,71,"Standard query 0x0000 A error.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+721,12.484661,10.157.64.96,224.0.0.252,LLMNR,65,Standard query 0x412d A error,Normal,Normal,99.9%,100.0%
+722,12.484661,fe80::81a0:43c9:3a1c:323b,ff02::fb,MDNS,91,"Standard query 0x0000 A error.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+723,12.485469,10.157.64.96,224.0.0.251,MDNS,71,"Standard query 0x0000 A error.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+724,12.485469,10.157.65.211,224.0.0.22,IGMPv3,62,Membership Report / Join group 224.0.0.251 for any sources / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+725,12.485469,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,130,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+726,12.501707,162.159.61.3,10.157.69.106,TCP,66,"443  >  55818 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+727,12.501887,10.157.69.106,162.159.61.3,TCP,54,55818  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+728,12.502562,10.157.69.106,162.159.61.3,TLSv1.2,1885,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+729,12.515374,162.159.61.3,10.157.69.106,TCP,56,"443  >  55818 [RST, ACK] Seq=1 Ack=1832 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+730,12.597986,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+731,12.597986,06:4b:df:b2:3f:68,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.68.123,Posible Ataque,Posible Ataque,99.9%,100.0%
+732,12.597986,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+733,12.598731,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+734,12.697545,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+735,12.772154,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a50f9f1be2eab7b2, PKN: 6, PING, CRYPTO, PING, PING, PADDING, PING, PADDING, PING, CRYPTO, PING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, PING, PADDING",Normal,Normal,99.9%,100.0%
+736,12.789687,10.157.68.123,10.157.71.255,NBNS,92,Name query NB <01><02>__MSBROWSE__<02><01>,Normal,Normal,99.9%,100.0%
+737,12.789687,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.142? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+738,12.789687,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+739,12.789687,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+740,12.789687,10.157.70.35,224.0.0.251,MDNS,84,"Standard query 0x0822 PTR 1.64.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+741,12.789687,10.157.70.35,224.0.0.22,IGMPv3,62,Membership Report / Leave group 239.255.255.250 / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+742,12.892747,fe80::20ed:581e:5c83:b8b7,ff02::1:ff32:6df,ICMPv6,86,Neighbor Solicitation for fe80::19f8:a45b:4132:6df from e8:fb:1c:49:30:05,Sospechoso,Sospechoso,99.7%,100.0%
+743,12.892747,10.157.70.35,224.0.0.22,IGMPv3,62,Membership Report / Leave group 239.255.255.250 / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+744,12.892747,fe80::81a0:43c9:3a1c:323b,ff02::1:3,LLMNR,85,Standard query 0x412d A error,Sospechoso,Sospechoso,99.7%,100.0%
+745,12.892747,10.157.64.96,224.0.0.251,MDNS,71,"Standard query 0x0000 A error.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+746,12.893473,10.157.64.96,224.0.0.251,MDNS,71,"Standard query 0x0000 A error.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+747,12.895576,fe80::81a0:43c9:3a1c:323b,ff02::fb,MDNS,91,"Standard query 0x0000 A error.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+748,12.895576,10.157.64.96,224.0.0.252,LLMNR,65,Standard query 0x412d A error,Normal,Normal,99.9%,100.0%
+749,12.895576,fe80::81a0:43c9:3a1c:323b,ff02::fb,MDNS,91,"Standard query 0x0000 A error.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+750,12.896131,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x00df ANY _companion-link._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+751,12.896131,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x00e0 PTR _companion-link._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+752,12.896131,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x00e1 SRV _companion-link._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+753,12.896131,10.157.70.242,224.0.0.251,MDNS,109,"Standard query 0x00e2 ANY MacBook Air de Juanito._companion-link._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+754,13.00591,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+755,13.00591,AzureWaveTec_ed:6d:26,Broadcast,ARP,56,Who has 10.157.71.174? Tell 10.157.71.164,Posible Ataque,Posible Ataque,99.9%,100.0%
+756,13.00591,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.228? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+757,13.00591,06:4b:df:b2:3f:68,Broadcast,ARP,56,Who has 10.157.70.242? Tell 10.157.68.123,Posible Ataque,Posible Ataque,99.9%,100.0%
+758,13.09949,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xe136 HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+759,13.099694,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xc677 A chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+760,13.111216,10.157.68.123,224.0.0.251,MDNS,124,"Standard query response 0x0000 NSEC, cache flush MacBook Air de Juanito._companion-link._tcp.local",Normal,Normal,99.9%,100.0%
+761,13.111216,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,144,"Standard query response 0x0000 NSEC, cache flush MacBook Air de Juanito._companion-link._tcp.local",Sospechoso,Sospechoso,99.7%,100.0%
+762,13.111216,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,116,"Standard query 0x0000 PTR _spotify-social-listening._tcp.local, ""QU"" question",Sospechoso,Sospechoso,99.7%,100.0%
+763,13.111216,10.157.71.174,224.0.0.251,MDNS,96,"Standard query 0x0000 PTR _spotify-social-listening._tcp.local, ""QU"" question",Normal,Normal,99.9%,100.0%
+764,13.11201,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+765,13.11201,b6:25:46:52:3f:96,Broadcast,ARP,56,Who has 10.40.1.1? Tell 10.40.2.140,Posible Ataque,Posible Ataque,99.9%,100.0%
+766,13.11201,fe80::3c5c:f8d7:5381:e64,ff02::1:ff6d:3920,ICMPv6,86,Neighbor Solicitation for fe80::fad0:27ff:fe6d:3920 from 34:2e:b7:48:f1:bb,Sospechoso,Sospechoso,99.7%,100.0%
+767,13.127804,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xc677 A chrome.cloudflare-dns.com A 172.64.41.3 A 162.159.61.3,Normal,Normal,99.6%,100.0%
+768,13.127804,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0xe136 HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.6%,100.0%
+769,13.12978,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=ed6d453fd8be9259, PKN: 1, PING, PADDING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO, PING, PADDING",Normal,Normal,99.9%,100.0%
+770,13.12983,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=ed6d453fd8be9259, PKN: 2, PING, PING, PING, CRYPTO, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+771,13.130113,10.157.69.106,172.64.41.3,TCP,66,58629  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+772,13.138356,172.64.41.3,10.157.69.106,TCP,66,"443  >  58629 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+773,13.138578,10.157.69.106,172.64.41.3,TCP,54,58629  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+774,13.139347,10.157.69.106,172.64.41.3,TLSv1.2,1885,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+775,13.157554,10.157.69.106,172.64.41.3,TCP,1454,"[TCP Retransmission] 58629  >  443 [PSH, ACK] Seq=432 Ack=1 Win=263168 Len=1400",Normal,Normal,100.0%,100.0%
+776,13.157607,172.64.41.3,10.157.69.106,TCP,56,"443  >  58629 [RST, ACK] Seq=1 Ack=1832 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+777,13.158945,10.157.69.106,172.64.41.3,TCP,66,50689  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+778,13.177697,172.64.41.3,10.157.69.106,TCP,66,"443  >  50689 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+779,13.177905,10.157.69.106,172.64.41.3,TCP,54,50689  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+780,13.178535,10.157.69.106,172.64.41.3,TLSv1.2,1821,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+781,13.180944,172.64.41.3,10.157.69.106,TCP,56,"443  >  50689 [RST, ACK] Seq=1 Ack=1768 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+782,13.199108,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+783,13.199108,50:2e:91:92:3a:b6,Broadcast,ARP,56,Who has 10.157.68.147? Tell 10.157.70.242,Posible Ataque,Posible Ataque,99.9%,100.0%
+784,13.199108,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+785,13.199108,10.157.64.96,10.157.71.255,NBNS,92,Name query NB ERROR<00>,Normal,Normal,99.9%,100.0%
+786,13.199683,10.157.68.123,10.157.71.255,NBNS,92,Name query NB <01><02>__MSBROWSE__<02><01>,Normal,Normal,99.9%,100.0%
+787,13.415143,10.157.68.221,10.157.71.255,UDP,63,59122  >  32412 Len=21,Normal,Normal,100.0%,100.0%
+788,13.415143,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+789,13.415143,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+790,13.442575,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=ed6d453fd8be9259, PKN: 4, CRYPTO, PADDING, PING, PADDING, PING, CRYPTO, PADDING, CRYPTO, PING, PADDING, CRYPTO, PADDING, CRYPTO, PING, PADDING, CRYPTO, CRYPTO, PING, PING, CRYPTO, PING, PING",Normal,Normal,99.9%,100.0%
+791,13.517425,10.157.68.221,10.157.71.255,UDP,63,59124  >  32414 Len=21,Normal,Normal,100.0%,100.0%
+792,13.517425,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+793,13.517425,10.157.65.239,224.0.0.251,MDNS,444,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR OneScreen-6786._airplay._tcp.local PTR _raop._tcp.local SRV, cache flush 0 0 51010 es-D43D52499B68.local A, cache flush 10.157.65.239 NSEC, cache flush es-D43D52499B68.local NSEC, cache flush OneScreen-6786._airplay._tcp.local",Normal,Normal,99.8%,100.0%
+794,13.51822,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+795,13.51822,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+796,13.619667,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+797,13.619667,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+798,13.722253,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+799,13.722253,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+800,13.722253,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+801,13.749267,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=03e00790f3c9f55b, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+802,13.799162,10.157.69.106,64.31.17.14,TCP,55,[TCP Keep-Alive] 57402  >  443 [ACK] Seq=1 Ack=1 Win=1021 Len=1,Normal,Normal,100.0%,100.0%
+803,13.814823,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.142? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+804,13.814823,10.157.65.239,255.255.255.255,UDP,103,48689  >  48689 Len=61,Normal,Normal,100.0%,100.0%
+805,13.814823,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+806,13.814823,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+807,13.815391,10.157.68.123,224.0.0.251,MDNS,240,"Standard query response 0x0000 PTR, cache flush MacBook-Air-de-Juanito.local PTR, cache flush MacBook-Air-de-Juanito.local NSEC, cache flush 0.E.C.6.C.6.9.F.0.E.8.2.9.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush 123.68.157.10.in-addr.arpa",Normal,Normal,99.9%,100.0%
+808,13.815391,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,260,"Standard query response 0x0000 PTR, cache flush MacBook-Air-de-Juanito.local PTR, cache flush MacBook-Air-de-Juanito.local NSEC, cache flush 0.E.C.6.C.6.9.F.0.E.8.2.9.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush 123.68.157.10.in-addr.arpa",Sospechoso,Sospechoso,99.7%,100.0%
+809,13.84429,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xce15 HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+810,13.844509,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xf2ff A chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+811,13.867735,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0xce15 HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.6%,100.0%
+812,13.867735,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xf2ff A chrome.cloudflare-dns.com A 162.159.61.3 A 172.64.41.3,Normal,Normal,99.6%,100.0%
+813,13.869219,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fa6372dc0cafb9ea, PKN: 1, PADDING, PING, PING, CRYPTO, CRYPTO, PING, PADDING, PING, PADDING, PING, PING, PING, PING, CRYPTO, PADDING, CRYPTO, CRYPTO, PADDING, PING, CRYPTO",Normal,Normal,99.9%,100.0%
+814,13.869279,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fa6372dc0cafb9ea, PKN: 2, PADDING, CRYPTO, CRYPTO, PING, CRYPTO, PING, PING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, PING, PING, PADDING, PING, PING",Normal,Normal,99.9%,100.0%
+815,13.869584,10.157.69.106,162.159.61.3,TCP,66,49750  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+816,13.891958,162.159.61.3,10.157.69.106,TCP,66,"443  >  49750 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+817,13.891958,64.31.17.14,10.157.69.106,TCP,66,[TCP Keep-Alive ACK] 443  >  57402 [ACK] Seq=1 Ack=2 Win=501 Len=0 SLE=1 SRE=2,Normal,Normal,100.0%,100.0%
+818,13.892177,10.157.69.106,162.159.61.3,TCP,54,49750  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+819,13.893169,10.157.69.106,162.159.61.3,TLSv1.2,1789,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+820,13.899219,162.159.61.3,10.157.69.106,TCP,56,"443  >  49750 [RST, ACK] Seq=1 Ack=1736 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+821,13.900619,10.157.69.106,162.159.61.3,TCP,66,63103  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+822,13.915917,10.157.71.174,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+823,13.915917,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+824,13.927073,162.159.61.3,10.157.69.106,TCP,66,"443  >  63103 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+825,13.927254,10.157.69.106,162.159.61.3,TCP,54,63103  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+826,13.92795,10.157.69.106,162.159.61.3,TLSv1.2,1885,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+827,13.977023,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a50f9f1be2eab7b2, PKN: 8, PING, PADDING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, PING, PING, PADDING, PING, PING, PING, PING, CRYPTO, PADDING, PING, CRYPTO",Normal,Normal,99.9%,100.0%
+828,13.985068,10.157.69.106,162.159.61.3,TCP,1514,"[TCP Retransmission] 63103  >  443 [PSH, ACK] Seq=372 Ack=1 Win=262656 Len=1460",Normal,Normal,100.0%,100.0%
+829,13.999425,162.159.61.3,10.157.69.106,TCP,56,"443  >  63103 [RST, ACK] Seq=1 Ack=1832 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+830,14.019321,50:2e:91:92:3a:b6,Broadcast,ARP,56,Who has 10.157.68.147? Tell 10.157.70.242,Posible Ataque,Posible Ataque,99.9%,100.0%
+831,14.019321,HuiZhouGaosh_db:25:b6,Broadcast,ARP,56,Who has 10.157.64.116? Tell 10.157.70.96,Posible Ataque,Posible Ataque,99.9%,100.0%
+832,14.019321,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+833,14.019321,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+834,14.019321,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+835,14.019321,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+836,14.019961,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x0477 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+837,14.019961,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x0477 ANY CHIA74417,Sospechoso,Sospechoso,99.7%,100.0%
+838,14.019961,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,110,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+839,14.020639,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+840,14.020639,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+841,14.020639,10.157.64.96,10.157.71.255,NBNS,92,Name query NB ERROR<00>,Normal,Normal,99.9%,100.0%
+842,14.022494,10.157.68.123,10.157.71.255,NBNS,92,Name query NB <01><02>__MSBROWSE__<02><01>,Normal,Normal,99.9%,100.0%
+843,14.02764,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x94b9 HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+844,14.027829,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x2f6b A chrome.cloudflare-dns.com,Normal,Normal,99.6%,100.0%
+845,14.043788,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=ed6d453fd8be9259, PKN: 6, CRYPTO, PING, CRYPTO, PADDING, CRYPTO, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, PADDING, PING, PADDING, CRYPTO, PING, CRYPTO, PING, PADDING, PING",Normal,Normal,99.9%,100.0%
+846,14.052037,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0x2f6b A chrome.cloudflare-dns.com A 162.159.61.3 A 172.64.41.3,Normal,Normal,99.6%,100.0%
+847,14.052037,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0x94b9 HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.6%,100.0%
+848,14.053669,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=b5f7372286f96b4f, PKN: 1, PADDING, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PING, CRYPTO, PADDING, PING, PING",Normal,Normal,99.9%,100.0%
+849,14.053732,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=b5f7372286f96b4f, PKN: 2, PING, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PING, PADDING, CRYPTO, PADDING, PING, PING, PING, CRYPTO",Normal,Normal,99.9%,100.0%
+850,14.054081,10.157.69.106,162.159.61.3,TCP,66,64835  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+851,14.075521,162.159.61.3,10.157.69.106,TCP,66,"443  >  64835 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+852,14.075659,10.157.69.106,162.159.61.3,TCP,54,64835  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+853,14.07635,10.157.69.106,162.159.61.3,TLSv1.2,1885,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+854,14.082641,162.159.61.3,10.157.69.106,TCP,56,"443  >  64835 [RST, ACK] Seq=1 Ack=1832 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+855,14.084809,10.157.69.106,162.159.61.3,TCP,66,60060  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+856,14.10208,162.159.61.3,10.157.69.106,TCP,66,"443  >  60060 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+857,14.102268,10.157.69.106,162.159.61.3,TCP,54,60060  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+858,14.102874,10.157.69.106,162.159.61.3,TLSv1.2,1885,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+859,14.111738,UniversalGlo_cd:92:40,Broadcast,ARP,42,Who has 10.157.66.75? Tell 10.157.69.106,Posible Ataque,Posible Ataque,99.9%,100.0%
+860,14.121403,Intel_48:f1:bb,Broadcast,ARP,56,Who has 10.157.68.123? Tell 10.157.67.172,Posible Ataque,Posible Ataque,99.9%,100.0%
+861,14.121403,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+862,14.124152,162.159.61.3,10.157.69.106,TCP,56,"443  >  60060 [RST, ACK] Seq=1 Ack=1832 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+863,14.177332,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fa6372dc0cafb9ea, PKN: 4, PADDING, PING, CRYPTO, CRYPTO, PING, PADDING, PING, CRYPTO, PING, PING, PADDING, PING, PING, CRYPTO, PADDING, PING, PING, PING, PADDING",Normal,Normal,99.9%,100.0%
+864,14.223799,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+865,14.223799,e2:05:09:be:8f:ce,Broadcast,ARP,42,Who has 10.157.64.1? Tell 10.157.70.185,Posible Ataque,Posible Ataque,99.9%,100.0%
+866,14.223799,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+867,14.359436,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=b5f7372286f96b4f, PKN: 4, PING, CRYPTO, PADDING, PING, PADDING, CRYPTO, PADDING, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, PING, CRYPTO, PADDING, PING, CRYPTO",Normal,Normal,99.9%,100.0%
+868,14.440013,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+869,14.440013,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+870,14.54136,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+871,14.643682,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+872,14.643682,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+873,14.643682,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+874,14.643682,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+875,14.7467,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x0000 PTR 147.68.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+876,14.7467,10.157.70.242,224.0.0.252,LLMNR,86,Standard query 0x7327 PTR 147.68.157.10.in-addr.arpa,Normal,Normal,99.9%,100.0%
+877,14.7467,fe80::19f8:a45b:4132:6df,ff02::1:3,LLMNR,106,Standard query 0x7327 PTR 147.68.157.10.in-addr.arpa,Sospechoso,Sospechoso,99.7%,100.0%
+878,14.7467,fe80::19f8:a45b:4132:6df,ff02::fb,MDNS,106,"Standard query 0x0000 PTR 147.68.157.10.in-addr.arpa, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+879,14.747339,HuiZhouGaosh_db:25:b6,Broadcast,ARP,56,Who has 10.157.64.116? Tell 10.157.70.96,Posible Ataque,Posible Ataque,99.9%,100.0%
+880,14.747339,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+881,14.747339,fe80::b425:46ff:fe52:3f96,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+882,14.748273,fe80::b425:46ff:fe52:3f96,ff02::2,ICMPv6,70,Router Solicitation from b6:25:46:52:3f:96,Sospechoso,Sospechoso,99.7%,100.0%
+883,14.782039,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fa6372dc0cafb9ea, PKN: 6, PADDING, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, PING, PADDING, CRYPTO, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, PADDING, PING, PADDING, CRYPTO, PING, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+884,14.950996,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Join group 239.255.255.250 for any sources,Normal,Normal,99.9%,100.0%
+885,14.950996,50:2e:91:92:3a:b6,Broadcast,ARP,56,Who has 10.157.68.147? Tell 10.157.70.242,Posible Ataque,Posible Ataque,99.9%,100.0%
+886,14.950996,fe80::ecd7:30ff:fe9d:c693,ff02::2,ICMPv6,70,Router Solicitation from ee:d7:30:9d:c6:93,Sospechoso,Sospechoso,99.7%,100.0%
+887,14.968425,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=b5f7372286f96b4f, PKN: 6, PING, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PING, PING, PING, PADDING, PING, PING, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PING, PADDING, CRYPTO, PING, PADDING, CRYPTO",Normal,Normal,99.9%,100.0%
+888,15.053328,fe80::69:28e0:f96c:6ce0,ff02::2,ICMPv6,70,Router Solicitation from 06:4b:df:b2:3f:68,Sospechoso,Sospechoso,99.7%,100.0%
+889,15.053328,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+890,15.053328,fe80::14c5:35ff:fe24:af21,ff02::16,ICMPv6,110,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+891,15.05407,16:c5:35:24:af:21,Broadcast,ARP,56,Gratuitous ARP for 10.157.71.194 (Reply),Posible Ataque,Posible Ataque,99.9%,100.0%
+892,15.084802,UniversalGlo_cd:92:40,Broadcast,ARP,42,Who has 10.157.66.75? Tell 10.157.69.106,Posible Ataque,Posible Ataque,99.9%,100.0%
+893,15.145235,10.157.70.242,224.0.0.252,LLMNR,86,Standard query 0x7327 PTR 147.68.157.10.in-addr.arpa,Normal,Normal,99.9%,100.0%
+894,15.145235,fe80::19f8:a45b:4132:6df,ff02::fb,MDNS,106,"Standard query 0x0000 PTR 147.68.157.10.in-addr.arpa, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+895,15.145235,10.157.70.242,224.0.0.251,MDNS,86,"Standard query 0x0000 PTR 147.68.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+896,15.145235,fe80::19f8:a45b:4132:6df,ff02::1:3,LLMNR,106,Standard query 0x7327 PTR 147.68.157.10.in-addr.arpa,Sospechoso,Sospechoso,99.7%,100.0%
+897,15.145235,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+898,15.146007,10.157.69.64,224.0.0.251,MDNS,78,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+899,15.146007,fe80::14fa:e359:4b33:18e4,ff02::fb,MDNS,98,"Standard query 0x0000 PTR _rdlink._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+900,15.146781,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0xd972 ANY CHIA74417,Sospechoso,Sospechoso,99.7%,100.0%
+901,15.146781,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0xd972 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+902,15.146781,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+903,15.147308,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+904,15.246344,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=ed6d453fd8be9259, PKN: 8, PADDING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PING, PADDING, PING, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, PADDING, CRYPTO, CRYPTO, PING, PING, PADDING, PING, PING, PING",Normal,Normal,99.9%,100.0%
+905,15.247251,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x8d74 HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.7%,100.0%
+906,15.247269,fe80::fc2a:e8ff:fecc:5618,ff02::2,ICMPv6,70,Router Solicitation from fe:2a:e8:cc:56:18,Sospechoso,Sospechoso,99.7%,100.0%
+907,15.247269,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+908,15.247428,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xe95c A chrome.cloudflare-dns.com,Normal,Normal,99.7%,100.0%
+909,15.249208,10.157.68.123,224.0.0.251,MDNS,417,"Standard query 0x0000 PTR lb._dns-sd._udp.local, ""QM"" question PTR _airport._tcp.local, ""QM"" question PTR _uscan._tcp.local, ""QM"" question PTR _scanner._tcp.local, ""QM"" question PTR _ipp._tcp.local, ""QM"" question PTR _ptp._tcp.local, ""QM"" question PTR _pdl-datastream._tcp.local, ""QM"" question PTR _ippusb._tcp.local, ""QM"" question PTR _printer._tcp.local, ""QM"" question PTR _uscans._tcp.local, ""QM"" question PTR _ipps._tcp.local, ""QM"" question PTR _afpovertcp._tcp.local, ""QM"" question PTR _smb._tcp.local, ""QM"" question PTR _rfb._tcp.local, ""QM"" question PTR _adisk._tcp.local, ""QM"" question PTR _apple-mobdev._tcp.local, ""QM"" question PTR 929b07e0._sub._apple-mobdev2._tcp.local, ""QM"" question PTR _apple-pairable._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question PTR MacBook Air de Juanito._companion-link._tcp.local",Normal,Normal,99.8%,100.0%
+910,15.249208,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,437,"Standard query 0x0000 PTR lb._dns-sd._udp.local, ""QM"" question PTR _airport._tcp.local, ""QM"" question PTR _uscan._tcp.local, ""QM"" question PTR _scanner._tcp.local, ""QM"" question PTR _ipp._tcp.local, ""QM"" question PTR _ptp._tcp.local, ""QM"" question PTR _pdl-datastream._tcp.local, ""QM"" question PTR _ippusb._tcp.local, ""QM"" question PTR _printer._tcp.local, ""QM"" question PTR _uscans._tcp.local, ""QM"" question PTR _ipps._tcp.local, ""QM"" question PTR _afpovertcp._tcp.local, ""QM"" question PTR _smb._tcp.local, ""QM"" question PTR _rfb._tcp.local, ""QM"" question PTR _adisk._tcp.local, ""QM"" question PTR _apple-mobdev._tcp.local, ""QM"" question PTR 929b07e0._sub._apple-mobdev2._tcp.local, ""QM"" question PTR _apple-pairable._tcp.local, ""QM"" question PTR _companion-link._tcp.local, ""QM"" question PTR MacBook Air de Juanito._companion-link._tcp.local",Sospechoso,Sospechoso,99.5%,100.0%
+911,15.250127,fe80::b425:46ff:fe52:3f96,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+912,15.250127,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+913,15.250127,fe80::e005:9ff:febe:8fce,ff02::2,ICMPv6,70,Router Solicitation from e2:05:09:be:8f:ce,Sospechoso,Sospechoso,99.7%,100.0%
+914,15.270355,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xe95c A chrome.cloudflare-dns.com A 172.64.41.3 A 162.159.61.3,Normal,Normal,99.7%,100.0%
+915,15.270355,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0x8d74 HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.7%,100.0%
+916,15.272202,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=87ba7c7ae16999a0, PKN: 1, CRYPTO, PADDING, CRYPTO, PING, PING, CRYPTO, PING, CRYPTO, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, PING, PING, PING, PING, CRYPTO, PING, PADDING, CRYPTO, PADDING, PING",Normal,Normal,99.9%,100.0%
+917,15.272252,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=87ba7c7ae16999a0, PKN: 2, CRYPTO, PADDING, CRYPTO, PING, PING, CRYPTO, PING, PADDING, PING, PADDING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO",Normal,Normal,99.9%,100.0%
+918,15.27252,10.157.69.106,172.64.41.3,TCP,66,56502  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+919,15.290187,172.64.41.3,10.157.69.106,TCP,66,"443  >  56502 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+920,15.290401,10.157.69.106,172.64.41.3,TCP,54,56502  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+921,15.291355,10.157.69.106,172.64.41.3,TLSv1.2,1789,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+922,15.299718,172.64.41.3,10.157.69.106,TCP,56,"443  >  56502 [RST, ACK] Seq=1 Ack=1736 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+923,15.300745,10.157.69.106,172.64.41.3,TCP,66,60408  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+924,15.308391,172.64.41.3,10.157.69.106,TCP,66,"443  >  60408 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+925,15.308604,10.157.69.106,172.64.41.3,TCP,54,60408  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+926,15.309558,10.157.69.106,172.64.41.3,TLSv1.2,1789,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+927,15.319248,172.64.41.3,10.157.69.106,TCP,56,"443  >  60408 [RST, ACK] Seq=1 Ack=1736 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+928,15.350381,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+929,15.350381,10.157.68.123,224.0.0.251,MDNS,1411,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR MacBook Air de Juanito._airplay._tcp.local TXT, cache flush PTR _raop._tcp.local PTR 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local TXT, cache flush PTR _asquic._udp.local PTR F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local SRV, cache flush 0 0 64289 MacBook-Air-de-Juanito.local TXT, cache flush PTR _companion-link._tcp.local PTR MacBook Air de Juanito._companion-link._tcp.local TXT SRV, cache flush 0 0 56012 MacBook-Air-de-Juanito.local AAAA, cache flush fe80::69:28e0:f96c:6ce0 A, cache flush 10.157.68.123 NSEC, cache flush MacBook Air de Juanito._airplay._tcp.local NSEC, cache flush 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local NSEC, cache flush F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local NSEC, cache flush MacBook Air de Juanito._companion-link._tcp.local NSEC, cache flush MacBook-Air-de-Juanito.local",Normal,Normal,99.9%,100.0%
+930,15.350381,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,1431,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR MacBook Air de Juanito._airplay._tcp.local TXT, cache flush PTR _raop._tcp.local PTR 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local TXT, cache flush PTR _asquic._udp.local PTR F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local SRV, cache flush 0 0 64289 MacBook-Air-de-Juanito.local TXT, cache flush PTR _companion-link._tcp.local PTR MacBook Air de Juanito._companion-link._tcp.local TXT SRV, cache flush 0 0 56012 MacBook-Air-de-Juanito.local AAAA, cache flush fe80::69:28e0:f96c:6ce0 A, cache flush 10.157.68.123 NSEC, cache flush MacBook Air de Juanito._airplay._tcp.local NSEC, cache flush 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local NSEC, cache flush F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local NSEC, cache flush MacBook Air de Juanito._companion-link._tcp.local NSEC, cache flush MacBook-Air-de-Juanito.local",Sospechoso,Sospechoso,98.5%,100.0%
+931,15.463674,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.203? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+932,15.463674,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+933,15.463674,0.0.0.0,255.255.255.255,DHCP,354,DHCP Request  - Transaction ID 0x4157e944,Normal,Normal,99.4%,100.0%
+934,15.463674,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+935,15.463674,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+936,15.463674,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+937,15.566166,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+938,15.566166,HuiZhouGaosh_7a:fe:71,Broadcast,ARP,56,Who has 10.157.70.160? Tell 10.157.65.239,Posible Ataque,Posible Ataque,99.9%,100.0%
+939,15.566166,b6:25:46:52:3f:96,Broadcast,ARP,56,Gratuitous ARP for 10.157.70.42 (Request),Posible Ataque,Posible Ataque,99.9%,100.0%
+940,15.566166,10.157.71.174,224.0.0.251,MDNS,71,"Standard query 0x0000 A error.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+941,15.566166,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,91,"Standard query 0x0000 A error.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+942,15.566166,10.157.71.174,224.0.0.252,LLMNR,65,Standard query 0x2692 A error,Normal,Normal,99.9%,100.0%
+943,15.579407,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=87ba7c7ae16999a0, PKN: 4, PING, PING, PADDING, CRYPTO, PING, CRYPTO, PING, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PING",Normal,Normal,99.9%,100.0%
+944,15.669253,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0xd972 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+945,15.669253,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0xd972 ANY CHIA74417,Sospechoso,Sospechoso,99.7%,100.0%
+946,15.669253,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+947,15.673507,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+948,15.673507,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+949,15.673507,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+950,15.673507,fe80::6074:55ff:fe12:b795,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+951,15.673507,10.157.69.241,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+952,15.673507,10.157.68.123,10.157.71.255,NBNS,110,Registration NB MAC-C2D5F3<00>,Normal,Normal,99.9%,100.0%
+953,15.674322,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+954,15.674322,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+955,15.770098,HuiZhouGaosh_db:25:b6,Broadcast,ARP,56,Who has 10.157.64.116? Tell 10.157.70.96,Posible Ataque,Posible Ataque,99.9%,100.0%
+956,15.770098,b6:25:46:52:3f:96,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.70.42,Posible Ataque,Posible Ataque,99.9%,100.0%
+957,15.770098,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+958,15.804715,10.157.69.106,10.157.65.239,TCP,164,"52502  >  8009 [PSH, ACK] Seq=331 Ack=346 Win=1023 Len=110",Normal,Normal,100.0%,100.0%
+959,15.841576,10.157.65.239,10.157.69.106,TCP,56,8009  >  52502 [ACK] Seq=346 Ack=441 Win=1161 Len=0,Normal,Normal,100.0%,100.0%
+960,15.86141,10.157.70.35,224.0.0.251,MDNS,84,"Standard query 0x0822 PTR 1.64.157.10.in-addr.arpa, ""QM"" question",Normal,Normal,99.9%,100.0%
+961,15.86141,10.157.70.35,224.0.0.22,IGMPv3,62,Membership Report / Leave group 239.255.255.250 / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+962,15.86141,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+963,15.869355,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=a50f9f1be2eab7b2, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+964,15.886032,10.157.65.239,10.157.69.106,TCP,169,"8009  >  52502 [PSH, ACK] Seq=346 Ack=441 Win=1161 Len=115",Normal,Normal,100.0%,100.0%
+965,15.936686,10.157.69.106,10.157.65.239,TCP,54,52502  >  8009 [ACK] Seq=441 Ack=461 Win=1022 Len=0,Normal,Normal,100.0%,100.0%
+966,15.964126,10.157.71.174,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+967,15.964126,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+968,15.964126,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+969,15.964126,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+970,15.964789,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+971,15.964789,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+972,15.964789,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0xd652 ANY CHIA74417,Sospechoso,Sospechoso,99.7%,100.0%
+973,15.965157,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0xd652 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+974,15.997382,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fa6372dc0cafb9ea, PKN: 8, PING, PADDING, CRYPTO, CRYPTO, PING, CRYPTO, PING, PADDING, PING, PING, PING, CRYPTO, PING, CRYPTO, PADDING, PING, PADDING, PING",Normal,Normal,99.9%,100.0%
+975,16.077851,10.157.71.174,224.0.0.251,MDNS,71,"Standard query 0x0000 A error.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+976,16.077851,10.157.71.174,224.0.0.252,LLMNR,65,Standard query 0x2692 A error,Normal,Normal,99.9%,100.0%
+977,16.077851,fe80::77d9:8ec9:8ada:f849,ff02::1:3,LLMNR,85,Standard query 0x2692 A error,Sospechoso,Sospechoso,99.7%,100.0%
+978,16.077851,fe80::14c5:35ff:fe24:af21,ff02::16,ICMPv6,110,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+979,16.07949,UniversalGlo_cd:92:40,Broadcast,ARP,42,Who has 10.157.66.75? Tell 10.157.69.106,Posible Ataque,Posible Ataque,99.9%,100.0%
+980,16.169172,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+981,16.169172,10.157.65.239,224.0.0.251,MDNS,453,"Standard query response 0x0000 TXT, cache flush PTR D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local SRV, cache flush 0 0 51040 es-D43D52499B68.local NSEC, cache flush D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local",Normal,Normal,99.8%,100.0%
+982,16.169399,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=b5f7372286f96b4f, PKN: 8, CRYPTO, CRYPTO, PING, PING, PADDING, PING, PING, CRYPTO, CRYPTO, PING, PING, CRYPTO, PADDING, CRYPTO, CRYPTO, PING",Normal,Normal,99.9%,100.0%
+983,16.187274,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=87ba7c7ae16999a0, PKN: 6, PADDING, PING, PADDING, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, PING, PADDING",Normal,Normal,99.9%,100.0%
+984,16.271254,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+985,16.271254,fe80::3c5c:f8d7:5381:e64,ff02::1:ff6d:3920,ICMPv6,86,Neighbor Solicitation for fe80::fad0:27ff:fe6d:3920 from 34:2e:b7:48:f1:bb,Sospechoso,Sospechoso,99.7%,100.0%
+986,16.271254,10.157.71.174,10.157.71.255,STEAMDISCOVER,83,Client Discovery Seq=1,Normal,Normal,99.9%,100.0%
+987,16.271254,HuiZhouGaosh_7a:fe:71,Broadcast,ARP,56,Who has 10.157.70.160? Tell 10.157.65.239,Posible Ataque,Posible Ataque,99.9%,100.0%
+988,16.487677,b6:25:46:52:3f:96,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.70.42,Posible Ataque,Posible Ataque,99.9%,100.0%
+989,16.487677,10.157.71.174,10.157.71.255,NBNS,92,Name query NB ERROR<00>,Normal,Normal,99.9%,100.0%
+990,16.487677,10.157.67.128,224.0.0.251,MDNS,488,"Standard query response 0x0000 PTR, cache flush Android_9WS6NCJJ.local AAAA, cache flush fe80::6cd2:77ff:fece:2bdc PTR, cache flush Android_9WS6NCJJ.local A, cache flush 10.157.67.128 PTR IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local SRV, cache flush 0 0 53601 Android_9WS6NCJJ.local TXT, cache flush PTR _FC9F5ED42C8A._tcp.local NSEC, cache flush C.D.B.2.E.C.E.F.F.F.7.7.2.D.C.6.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush Android_9WS6NCJJ.local NSEC, cache flush 128.67.157.10.in-addr.arpa NSEC, cache flush IzhYVDT8n14AAA._FC9F5ED42C8A._tcp.local",Normal,Normal,99.8%,100.0%
+991,16.487677,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+992,16.487677,fe80::b425:46ff:fe52:3f96,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+993,16.487677,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Join group 224.0.0.252 for any sources,Normal,Normal,99.9%,100.0%
+994,16.488408,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+995,16.488408,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+996,16.488408,10.157.68.123,10.157.71.255,NBNS,110,Registration NB MAC-C2D5F3<00>,Normal,Normal,99.9%,100.0%
+997,16.692413,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+998,16.692413,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+999,16.692413,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+1000,16.692413,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1001,16.692413,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1002,16.794519,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1003,16.794519,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1004,16.794519,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1005,16.888941,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x802f HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.7%,100.0%
+1006,16.889177,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xd2eb A chrome.cloudflare-dns.com,Normal,Normal,99.7%,100.0%
+1007,16.898535,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+1008,16.898535,fe80::3c5c:f8d7:5381:e64,ff02::1:ff6d:3920,ICMPv6,86,Neighbor Solicitation for fe80::fad0:27ff:fe6d:3920 from 34:2e:b7:48:f1:bb,Sospechoso,Sospechoso,99.7%,100.0%
+1009,16.899186,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1010,16.921421,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0x802f HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.7%,100.0%
+1011,16.921421,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xd2eb A chrome.cloudflare-dns.com A 172.64.41.3 A 162.159.61.3,Normal,Normal,99.7%,100.0%
+1012,16.923091,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=0f16d607ae0e7781, PKN: 1, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, PING, PADDING, CRYPTO, CRYPTO",Normal,Normal,99.9%,100.0%
+1013,16.923141,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=0f16d607ae0e7781, PKN: 2, PING, PADDING, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, PING, PING, PING, PADDING, PING, PADDING, CRYPTO",Normal,Normal,99.9%,100.0%
+1014,16.923437,10.157.69.106,172.64.41.3,TCP,66,65169  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+1015,16.941915,172.64.41.3,10.157.69.106,TCP,66,"443  >  65169 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+1016,16.942092,10.157.69.106,172.64.41.3,TCP,54,65169  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+1017,16.942999,10.157.69.106,172.64.41.3,TLSv1.2,1885,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+1018,16.948049,172.64.41.3,10.157.69.106,TCP,56,"443  >  65169 [RST, ACK] Seq=1 Ack=1832 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+1019,16.949333,10.157.69.106,172.64.41.3,TCP,66,60351  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+1020,16.968878,172.64.41.3,10.157.69.106,TCP,66,"443  >  60351 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+1021,16.969086,10.157.69.106,172.64.41.3,TCP,54,60351  >  443 [ACK] Seq=1 Ack=1 Win=263168 Len=0,Normal,Normal,100.0%,100.0%
+1022,16.96975,10.157.69.106,172.64.41.3,TLSv1.2,1789,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+1023,16.988567,10.157.65.239,224.0.0.251,MDNS,145,"Standard query 0x0000 ANY D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local, ""QM"" question SRV 0 0 51040 es-D43D52499B68.local",Normal,Normal,99.9%,100.0%
+1024,16.988567,fe80::fcfc:8ff:fe76:b7e,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1025,16.988567,50:2e:91:92:3a:b6,Broadcast,ARP,56,Who has 10.157.68.147? Tell 10.157.70.242,Posible Ataque,Posible Ataque,99.9%,100.0%
+1026,16.988567,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1027,16.988567,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1028,16.988567,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+1029,16.988567,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+1030,16.989194,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1031,16.989194,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1032,16.989194,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x2b42 ANY CHIA74417,Sospechoso,Sospechoso,99.7%,100.0%
+1033,16.990164,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x2b42 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+1034,16.993096,172.64.41.3,10.157.69.106,TCP,56,"443  >  60351 [RST, ACK] Seq=1 Ack=1736 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+1035,17.090402,fe:fc:08:76:0b:7e,Broadcast,ARP,56,Gratuitous ARP for 10.157.68.70 (Reply),Posible Ataque,Posible Ataque,99.9%,100.0%
+1036,17.090402,HuiZhouGaosh_7a:fe:71,Broadcast,ARP,56,Who has 10.157.70.160? Tell 10.157.65.239,Posible Ataque,Posible Ataque,99.9%,100.0%
+1037,17.090402,c2:29:8f:5c:88:f4,Broadcast,ARP,56,Who has 10.157.64.1? Tell 10.157.68.98,Posible Ataque,Posible Ataque,99.9%,100.0%
+1038,17.118908,UniversalGlo_cd:92:40,Broadcast,ARP,42,Who has 10.157.66.75? Tell 10.157.69.106,Posible Ataque,Posible Ataque,99.9%,100.0%
+1039,17.135939,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=ed6d453fd8be9259, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+1040,17.193218,fe80::fcfc:8ff:fe76:b7e,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1041,17.193218,fe:fc:08:76:0b:7e,Broadcast,ARP,56,Gratuitous ARP for 10.157.68.70 (Reply),Posible Ataque,Posible Ataque,99.9%,100.0%
+1042,17.193218,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1043,17.193218,10.157.65.239,224.0.0.251,MDNS,193,"Standard query response 0x0000 SRV, cache flush 0 0 51040 es-D43D52499B68.local A, cache flush 10.157.65.239 NSEC, cache flush es-D43D52499B68.local NSEC, cache flush D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local",Normal,Normal,99.9%,100.0%
+1044,17.193733,10.157.70.42,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1045,17.193733,10.157.70.42,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1046,17.193733,10.157.70.42,239.255.255.250,SSDP,179,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1047,17.223694,10.157.69.106,8.8.8.8,DNS,85,Standard query 0x4b52 HTTPS chrome.cloudflare-dns.com,Normal,Normal,99.7%,100.0%
+1048,17.223954,10.157.69.106,8.8.8.8,DNS,85,Standard query 0xc53a A chrome.cloudflare-dns.com,Normal,Normal,99.7%,100.0%
+1049,17.233625,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=0f16d607ae0e7781, PKN: 4, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, PADDING, PING, PING, PADDING, PING, PING, CRYPTO, PING, CRYPTO, PADDING, CRYPTO, CRYPTO",Normal,Normal,99.9%,100.0%
+1050,17.247161,8.8.8.8,10.157.69.106,DNS,117,Standard query response 0xc53a A chrome.cloudflare-dns.com A 162.159.61.3 A 172.64.41.3,Normal,Normal,99.7%,100.0%
+1051,17.247161,8.8.8.8,10.157.69.106,DNS,158,Standard query response 0x4b52 HTTPS chrome.cloudflare-dns.com HTTPS,Normal,Normal,99.7%,100.0%
+1052,17.249055,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fed3144cbb70f2ef, PKN: 1, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+1053,17.249121,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fed3144cbb70f2ef, PKN: 2, PADDING, CRYPTO, PADDING, PING, PING, CRYPTO, PING, CRYPTO, PING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO",Normal,Normal,99.9%,100.0%
+1054,17.249488,10.157.69.106,162.159.61.3,TCP,66,57215  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+1055,17.265877,162.159.61.3,10.157.69.106,TCP,66,"443  >  57215 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+1056,17.266057,10.157.69.106,162.159.61.3,TCP,54,57215  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+1057,17.266978,10.157.69.106,162.159.61.3,TLSv1.2,1821,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+1058,17.284692,162.159.61.3,10.157.69.106,TCP,56,"443  >  57215 [RST, ACK] Seq=1 Ack=1768 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+1059,17.285974,10.157.69.106,162.159.61.3,TCP,66,63438  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM,Normal,Normal,100.0%,100.0%
+1060,17.295339,10.157.71.174,10.157.71.255,NBNS,92,Name query NB ERROR<00>,Normal,Normal,99.9%,100.0%
+1061,17.295339,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1062,17.295339,10.157.64.73,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1063,17.295789,10.157.66.40,10.157.71.255,UDP,82,57621  >  57621 Len=40,Normal,Normal,100.0%,100.0%
+1064,17.295789,10.157.68.123,10.157.71.255,NBNS,110,Registration NB MAC-C2D5F3<00>,Normal,Normal,99.9%,100.0%
+1065,17.299738,162.159.61.3,10.157.69.106,TCP,66,"443  >  63438 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 SACK_PERM WS=8192",Normal,Normal,100.0%,100.0%
+1066,17.299952,10.157.69.106,162.159.61.3,TCP,54,63438  >  443 [ACK] Seq=1 Ack=1 Win=262656 Len=0,Normal,Normal,100.0%,100.0%
+1067,17.301099,10.157.69.106,162.159.61.3,TLSv1.2,1821,Client Hello (SNI=chrome.cloudflare-dns.com),Normal,Normal,100.0%,100.0%
+1068,17.306866,162.159.61.3,10.157.69.106,TCP,56,"443  >  63438 [RST, ACK] Seq=1 Ack=1768 Win=57344 Len=0",Normal,Normal,100.0%,100.0%
+1069,17.388794,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=87ba7c7ae16999a0, PKN: 8, PADDING, CRYPTO, PING, PING, PADDING, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+1070,17.397456,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.203? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1071,17.511287,10.157.70.35,224.0.0.22,IGMPv3,54,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+1072,17.511287,10.157.65.211,224.0.0.22,IGMPv3,62,Membership Report / Join group 224.0.0.252 for any sources / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+1073,17.511287,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,130,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1074,17.511795,10.157.65.239,224.0.0.251,MDNS,411,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR OneScreen-6786._airplay._tcp.local PTR _raop._tcp.local SRV, cache flush 0 0 51010 es-D43D52499B68.local NSEC, cache flush OneScreen-6786._airplay._tcp.local",Normal,Normal,99.9%,100.0%
+1075,17.511795,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+1076,17.511795,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+1077,17.512421,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1078,17.553909,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fed3144cbb70f2ef, PKN: 4, CRYPTO, CRYPTO, PADDING, CRYPTO, PING, PADDING, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING, PING, PADDING, CRYPTO, CRYPTO, PING, PING, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+1079,17.716225,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1080,17.716225,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1081,17.716225,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1082,17.716225,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+1083,17.716725,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+1084,17.818591,fe80::77d9:8ec9:8ada:f849,ff02::1:2,DHCPv6,120,Information-request XID: 0x3f5fab CID: 000100012a57a79e58112285e91b ,Sospechoso,Sospechoso,99.5%,100.0%
+1085,17.818591,10.157.65.239,255.255.255.255,UDP,103,48689  >  48689 Len=61,Normal,Normal,100.0%,100.0%
+1086,17.818591,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1087,17.818591,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1088,17.840524,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=0f16d607ae0e7781, PKN: 6, PING, PADDING, PING, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, PING, CRYPTO, PADDING, CRYPTO, PADDING, CRYPTO, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, PADDING",Normal,Normal,99.9%,100.0%
+1089,17.873843,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fa6372dc0cafb9ea, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+1090,17.910581,10.157.68.123,224.0.0.251,MDNS,1492,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR MacBook Air de Juanito._airplay._tcp.local TXT, cache flush PTR _raop._tcp.local PTR 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local TXT, cache flush PTR _asquic._udp.local PTR F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local SRV, cache flush 0 0 64289 MacBook-Air-de-Juanito.local TXT, cache flush PTR _companion-link._tcp.local PTR MacBook Air de Juanito._companion-link._tcp.local TXT PTR, cache flush MacBook-Air-de-Juanito.local PTR, cache flush MacBook-Air-de-Juanito.local SRV, cache flush 0 0 56012 MacBook-Air-de-Juanito.local AAAA, cache flush fe80::69:28e0:f96c:6ce0 A, cache flush 10.157.68.123 NSEC, cache flush MacBook Air de Juanito._airplay._tcp.local NSEC, cache flush 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local NSEC, cache flush F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local",Normal,Normal,99.9%,100.0%
+1091,17.910581,fe80::69:28e0:f96c:6ce0,ff02::fb,MDNS,1512,"Standard query response 0x0000 TXT, cache flush PTR _airplay._tcp.local PTR MacBook Air de Juanito._airplay._tcp.local TXT, cache flush PTR _raop._tcp.local PTR 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local SRV, cache flush 0 0 7000 MacBook-Air-de-Juanito.local TXT, cache flush PTR _asquic._udp.local PTR F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local SRV, cache flush 0 0 64289 MacBook-Air-de-Juanito.local TXT, cache flush PTR _companion-link._tcp.local PTR MacBook Air de Juanito._companion-link._tcp.local TXT PTR, cache flush MacBook-Air-de-Juanito.local PTR, cache flush MacBook-Air-de-Juanito.local SRV, cache flush 0 0 56012 MacBook-Air-de-Juanito.local AAAA, cache flush fe80::69:28e0:f96c:6ce0 A, cache flush 10.157.68.123 NSEC, cache flush MacBook Air de Juanito._airplay._tcp.local NSEC, cache flush 7ED60905D2C8@MacBook Air de Juanito._raop._tcp.local NSEC, cache flush F5A51FED-626C-4627-AFB9-CD31516D1F06._asquic._udp.local",Sospechoso,Sospechoso,98.2%,100.0%
+1092,17.911463,fe80::3c5c:f8d7:5381:e64,ff02::1:ff6d:3920,ICMPv6,86,Neighbor Solicitation for fe80::fad0:27ff:fe6d:3920 from 34:2e:b7:48:f1:bb,Sospechoso,Sospechoso,99.7%,100.0%
+1093,17.911463,10.157.71.174,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1094,17.911463,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1095,18.024129,fe80::837:9bff:fe38:549c,ff02::2,ICMPv6,70,Router Solicitation from 0a:37:9b:38:54:9c,Sospechoso,Sospechoso,99.7%,100.0%
+1096,18.024129,HuiZhouGaosh_db:25:b6,Broadcast,ARP,56,Who has 10.157.64.116? Tell 10.157.70.96,Posible Ataque,Posible Ataque,99.9%,100.0%
+1097,18.024129,50:2e:91:92:3a:b6,Broadcast,ARP,56,Who has 10.157.68.147? Tell 10.157.70.242,Posible Ataque,Posible Ataque,99.9%,100.0%
+1098,18.024129,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1099,18.024129,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1100,18.059437,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=b5f7372286f96b4f, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+1101,18.090217,UniversalGlo_cd:92:40,Broadcast,ARP,42,Who has 10.157.66.75? Tell 10.157.69.106,Posible Ataque,Posible Ataque,99.9%,100.0%
+1102,18.168473,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fed3144cbb70f2ef, PKN: 6, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, CRYPTO, CRYPTO, PING, CRYPTO, PADDING, CRYPTO, PING, CRYPTO, PADDING, CRYPTO, PING",Normal,Normal,99.9%,100.0%
+1103,18.216857,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1104,18.216857,10.157.65.239,224.0.0.251,MDNS,193,"Standard query response 0x0000 SRV, cache flush 0 0 51040 es-D43D52499B68.local A, cache flush 10.157.65.239 NSEC, cache flush es-D43D52499B68.local NSEC, cache flush D4:3D:52:49:9B:68@OneScreen-6786._raop._tcp.local",Normal,Normal,99.9%,100.0%
+1105,18.330229,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1106,18.432026,10.157.68.221,10.157.71.255,UDP,63,59122  >  32412 Len=21,Normal,Normal,100.0%,100.0%
+1107,18.432026,10.157.68.221,10.157.71.255,UDP,63,59124  >  32414 Len=21,Normal,Normal,100.0%,100.0%
+1108,18.535209,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1109,18.637906,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+1110,18.637906,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+1111,18.637906,fe80::4c11:edff:fea8:c3c0,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1112,18.637906,4e:11:ed:a8:c3:c0,Broadcast,ARP,56,Gratuitous ARP for 10.157.68.147 (Reply),Posible Ataque,Posible Ataque,99.9%,100.0%
+1113,18.740566,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1114,18.740566,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1115,18.740566,6e:d2:77:ce:2b:dc,Broadcast,ARP,56,Gratuitous ARP for 10.157.67.128 (Reply),Posible Ataque,Posible Ataque,99.9%,100.0%
+1116,18.740566,HuiZhouGaosh_db:25:b6,Broadcast,ARP,56,Who has 10.157.64.116? Tell 10.157.70.96,Posible Ataque,Posible Ataque,99.9%,100.0%
+1117,18.740566,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1118,18.842235,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1119,18.842235,10.157.68.123,10.157.71.255,NBNS,110,Refresh NB MAC-C2D5F3<00>,Normal,Normal,99.9%,100.0%
+1120,18.842235,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1121,18.842235,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1122,18.944199,fe80::6cd2:77ff:fece:2bdc,ff02::16,ICMPv6,170,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.6%,100.0%
+1123,18.944199,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1124,19.052292,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=0f16d607ae0e7781, PKN: 8, PING, PING, PADDING, PING, PING, CRYPTO, CRYPTO, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, PING, PING, CRYPTO",Normal,Normal,99.9%,100.0%
+1125,19.054737,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1126,19.054737,fe80::6a4:95b3:539c:2a84,ff02::1:3,LLMNR,89,Standard query 0x6761 ANY CHIA74417,Sospechoso,Sospechoso,99.7%,100.0%
+1127,19.054737,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.252,Normal,Normal,99.9%,100.0%
+1128,19.054737,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1129,19.054737,10.157.65.211,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+1130,19.054737,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1131,19.055384,fe80::6a4:95b3:539c:2a84,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.7%,100.0%
+1132,19.055384,10.157.65.211,224.0.0.22,IGMPv3,62,Membership Report / Join group 224.0.0.252 for any sources / Join group 224.0.0.251 for any sources,Normal,Normal,99.9%,100.0%
+1133,19.057647,10.157.65.211,224.0.0.252,LLMNR,69,Standard query 0x6761 ANY CHIA74417,Normal,Normal,99.9%,100.0%
+1134,19.057647,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1135,19.057647,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1136,19.085741,UniversalGlo_cd:92:40,Broadcast,ARP,42,Who has 10.157.66.75? Tell 10.157.69.106,Posible Ataque,Posible Ataque,99.9%,100.0%
+1137,19.241425,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1138,19.241425,fe80::b425:46ff:fe52:3f96,ff02::2,ICMPv6,70,Router Solicitation from b6:25:46:52:3f:96,Sospechoso,Sospechoso,99.7%,100.0%
+1139,19.28699,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=87ba7c7ae16999a0, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+1140,19.354797,10.157.64.73,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1141,19.354797,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1142,19.354797,0.0.0.0,255.255.255.255,DHCP,340,DHCP Discover - Transaction ID 0x6ffb549d,Normal,Normal,99.6%,100.0%
+1143,19.376993,10.157.69.106,162.159.61.3,QUIC,1292,"Initial, DCID=fed3144cbb70f2ef, PKN: 8, CRYPTO, PADDING, PING, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PING, PING, PADDING",Normal,Normal,99.9%,100.0%
+1144,19.457447,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.142? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1145,19.457447,fe80::69:28e0:f96c:6ce0,ff02::2,ICMPv6,70,Router Solicitation from 06:4b:df:b2:3f:68,Sospechoso,Sospechoso,99.7%,100.0%
+1146,19.55957,fe80::84a2:80ff:fe20:a803,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+1147,19.55957,10.157.64.73,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+1148,19.55957,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1149,19.661098,fe80::93c8:102:ce94:2bb9,ff02::2,ICMPv6,70,Router Solicitation from 64:11:a4:2d:d0:b8,Sospechoso,Sospechoso,99.7%,100.0%
+1150,19.661098,10.157.71.174,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+1151,19.661098,fe80::77d9:8ec9:8ada:f849,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+1152,19.764085,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1153,19.764085,HuiZhouGaosh_db:25:b6,Broadcast,ARP,56,Who has 10.157.64.116? Tell 10.157.70.96,Posible Ataque,Posible Ataque,99.9%,100.0%
+1154,19.764085,10.157.69.241,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+1155,19.764085,fe80::6074:55ff:fe12:b795,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+1156,19.764768,10.157.69.241,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1157,19.764768,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1158,19.764768,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.180? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1159,19.825515,10.157.69.106,163.70.152.60,TLSv1.2,386,Application Data,Normal,Normal,100.0%,100.0%
+1160,19.825596,10.157.69.106,163.70.152.60,TLSv1.2,93,Application Data,Normal,Normal,100.0%,100.0%
+1161,19.825654,10.157.69.106,163.70.152.60,TLSv1.2,2578,Application Data,Normal,Normal,100.0%,100.0%
+1162,19.848435,163.70.152.60,10.157.69.106,TCP,56,443  >  56639 [ACK] Seq=1 Ack=333 Win=411 Len=0,Normal,Normal,100.0%,100.0%
+1163,19.848435,163.70.152.60,10.157.69.106,TCP,56,443  >  56639 [ACK] Seq=1 Ack=372 Win=411 Len=0,Normal,Normal,100.0%,100.0%
+1164,19.848435,163.70.152.60,10.157.69.106,TCP,56,443  >  56639 [ACK] Seq=1 Ack=1764 Win=422 Len=0,Normal,Normal,100.0%,100.0%
+1165,19.848435,163.70.152.60,10.157.69.106,TCP,56,443  >  56639 [ACK] Seq=1 Ack=2896 Win=433 Len=0,Normal,Normal,100.0%,100.0%
+1166,19.848435,163.70.152.60,10.157.69.106,TLSv1.2,106,Application Data,Normal,Normal,100.0%,100.0%
+1167,19.855956,fe80::3c5c:f8d7:5381:e64,ff02::1:ff6d:3920,ICMPv6,86,Neighbor Solicitation for fe80::fad0:27ff:fe6d:3920 from 34:2e:b7:48:f1:bb,Sospechoso,Sospechoso,99.6%,100.0%
+1168,19.855956,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1169,19.855956,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1170,19.855956,10.157.71.174,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1171,19.892056,10.157.69.106,163.70.152.60,TCP,54,56639  >  443 [ACK] Seq=2896 Ack=53 Win=1027 Len=0,Normal,Normal,100.0%,100.0%
+1172,19.968012,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.64.197? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1173,19.968572,10.157.69.106,23.7.2.8,TCP,54,"57798  >  443 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0",Normal,Normal,100.0%,100.0%
+1174,20.004408,163.70.152.60,10.157.69.106,TLSv1.2,1083,Application Data,Normal,Normal,100.0%,100.0%
+1175,20.006568,10.157.69.106,163.70.152.60,TLSv1.2,89,Application Data,Normal,Normal,100.0%,98.0%
+1176,20.072541,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.237? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1177,20.081997,163.70.152.60,10.157.69.106,TCP,56,443  >  56639 [ACK] Seq=1082 Ack=2931 Win=433 Len=0,Normal,Normal,100.0%,100.0%
+1178,20.275413,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.100? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1179,20.378094,10.157.68.123,10.157.71.255,NBNS,110,Refresh NB MAC-C2D5F3<00>,Normal,Normal,99.9%,100.0%
+1180,20.378094,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.141? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1181,20.378094,10.157.66.18,224.0.0.22,IGMPv3,56,Membership Report / Leave group 224.0.0.251,Normal,Normal,99.9%,100.0%
+1182,20.480421,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.142? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1183,20.582854,9a:a5:a9:01:c2:f2,Broadcast,ARP,56,Gratuitous ARP for 10.157.70.203 (Reply),Posible Ataque,Posible Ataque,99.9%,100.0%
+1184,20.582854,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.70.32? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1185,20.68511,10.157.66.40,224.0.0.251,MDNS,87,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Normal,Normal,99.9%,100.0%
+1186,20.68511,fe80::7889:a8ff:febe:b68c,ff02::fb,MDNS,107,"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QM"" question",Sospechoso,Sospechoso,99.7%,100.0%
+1187,20.68511,fe80::4c11:edff:fea8:c3c0,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.6%,100.0%
+1188,20.685792,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.220? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1189,20.787672,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.67.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1190,20.787672,fe80::3c5c:f8d7:5381:e64,ff02::1:ff6d:3920,ICMPv6,86,Neighbor Solicitation for fe80::fad0:27ff:fe6d:3920 from 34:2e:b7:48:f1:bb,Sospechoso,Sospechoso,99.6%,100.0%
+1191,20.787672,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.17? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1192,20.78823,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.71.61? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1193,20.78823,10.157.66.40,239.255.255.250,SSDP,167,M-SEARCH * HTTP/1.1 ,Normal,Normal,99.9%,100.0%
+1194,20.78823,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.66.180? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1195,20.887537,10.157.69.106,10.157.65.239,TCP,164,"52502  >  8009 [PSH, ACK] Seq=441 Ack=461 Win=1022 Len=110",Normal,Normal,100.0%,100.0%
+1196,20.891077,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.68.181? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1197,20.891077,Sophos_fc:00:09,Broadcast,ARP,56,Who has 10.157.69.47? Tell 10.157.64.1,Posible Ataque,Posible Ataque,99.9%,100.0%
+1198,20.918256,10.157.65.239,10.157.69.106,TCP,56,8009  >  52502 [ACK] Seq=461 Ack=551 Win=1161 Len=0,Normal,Normal,100.0%,100.0%
+1199,20.929627,10.157.69.106,172.64.41.3,QUIC,1292,"Initial, DCID=0f16d607ae0e7781, PKN: 9, CC, PADDING",Normal,Normal,99.9%,100.0%
+1200,20.96303,10.157.65.239,10.157.69.106,TCP,169,"8009  >  52502 [PSH, ACK] Seq=461 Ack=551 Win=1161 Len=115",Normal,Normal,100.0%,100.0%
+1201,20.981676,fe80::cf5:57ff:fe0e:a1d5,ff02::16,ICMPv6,90,Multicast Listener Report Message v2,Sospechoso,Sospechoso,99.6%,100.0%

@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, send_file,
 import os
 import uuid
 import threading
+import glob
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -16,8 +17,24 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['GRAFICAS_FOLDER'] = 'static/graficas'
 
-# Almacén de tareas en memoria
+os.makedirs('uploads', exist_ok=True)
+os.makedirs('static/graficas', exist_ok=True)
+
 tareas = {}
+
+def limpiar_archivos_viejos():
+    carpetas = ['static/graficas', 'uploads']
+    for carpeta in carpetas:
+        archivos = glob.glob(f'{carpeta}/*')
+        archivos_con_id = [a for a in archivos if '_' in os.path.basename(a)
+                          and os.path.basename(a).count('_') >= 2]
+        archivos_con_id.sort(key=lambda x: os.path.getmtime(x))
+        if len(archivos_con_id) > 5:
+            for archivo in archivos_con_id[:-5]:
+                try:
+                    os.remove(archivo)
+                except:
+                    pass
 
 def procesar_archivo(task_id, filepath):
     try:
@@ -183,6 +200,8 @@ def analizar():
     task_id = str(uuid.uuid4())[:8]
     filepath = os.path.join(app.config['UPLOAD_FOLDER'], f'{task_id}_{archivo.filename}')
     archivo.save(filepath)
+
+    limpiar_archivos_viejos()
 
     tareas[task_id] = {'estado': 'iniciando'}
     hilo = threading.Thread(target=procesar_archivo, args=(task_id, filepath))
